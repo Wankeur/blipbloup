@@ -1,0 +1,35 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rasp/ros2_ws/build/robot_description",
+        "/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/test_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/std_srvs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/std_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/service_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/example_interfaces/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rasp/ros2_ws/build/robot_description",
+        "/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/test_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/std_srvs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/std_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/service_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/example_interfaces/lib/python3.12/site-packages",
+        "/home/rasp/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "ros.distro": "jazzy"
+}
