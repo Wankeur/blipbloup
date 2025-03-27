@@ -61,7 +61,8 @@ def generate_launch_description():
 
     declare_params_file_cmd = DeclareLaunchArgument(
         'params_file',
-        default_value=os.path.join(bringup_dir, 'params', 'nav2_params.yaml'),
+        default_value='/home/rasp/ros2_ws/src/robot_nav/config/mapper_params_online_async.yaml',
+        #os.path.join(bringup_dir, 'params', 'nav2_params.yaml'),
         description='Full path to the ROS2 parameters file to use for all launched nodes',
     )
 
@@ -129,7 +130,8 @@ def generate_launch_description():
 
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(slam_launch_file),
-                launch_arguments={'use_sim_time': use_sim_time}.items(),
+                launch_arguments={'use_sim_time': use_sim_time,
+                                  'slam_params_file': '/home/rasp/ros2_ws/src/robot_nav/config/mapper_params_online_async.yaml'}.items(),
                 condition=UnlessCondition(has_slam_toolbox_params),
             ),
 
