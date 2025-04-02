@@ -8,8 +8,8 @@
 <link name="base_link">
   <inertial>
     <origin xyz="-0.00014980415129537406 0.0003023390699038116 0.0332081283017649" rpy="0 0 0"/>
-    <mass value="6.063579487839896"/>
-    <inertia ixx="0.0277" iyy="0.022027" izz="0.038299" ixy="-0.0" iyz="0.000161" ixz="-1e-06"/>
+    <mass value="0.063579487839896"/>
+    <inertia ixx="0.000277" iyy="0.00022027" izz="0.00038299" ixy="-0.0" iyz="0.000161" ixz="-1e-06"/>
   </inertial>
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -29,7 +29,7 @@
 <link name="Roue4_1">
   <inertial>
     <origin xyz="-0.0010380506382758475 -1.1679208535467223e-05 -2.1888176668372061e-07" rpy="0 0 0"/>
-    <mass value="0.6461883281506762"/>
+    <mass value="0.06461883281506762"/>
     <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
@@ -50,7 +50,7 @@
 <link name="Roue3_1">
   <inertial>
     <origin xyz="-0.0010380506382763194 -1.1679208533246777e-05 -2.188817664235121e-07" rpy="0 0 0"/>
-    <mass value="0.6461883281506762"/>
+    <mass value="0.06461883281506762"/>
     <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
@@ -71,7 +71,7 @@
 <link name="Roue1_1">
   <inertial>
     <origin xyz="0.001038572809780841 1.1096913653231566e-05 -2.1888178453749463e-07" rpy="0 0 0"/>
-    <mass value="0.646188328150675"/>
+    <mass value="0.0646188328150675"/>
     <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
@@ -92,7 +92,7 @@
 <link name="Roue2_1">
   <inertial>
     <origin xyz="0.0010385728097805635 1.1096913650872342e-05 -2.188817843883084e-07" rpy="0 0 0"/>
-    <mass value="0.6461883281506752"/>
+    <mass value="0.06461883281506752"/>
     <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>

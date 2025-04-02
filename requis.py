@@ -27,4 +27,4 @@ if __name__ == '__main__':
     run_command('screen -dmS mysession5 ros2 launch robot_description launch.launch.py &')
     
     # test pour essayer de resoudre le probleme des time stamp
-    run_command('screen -dmS mysession6 ros2 launch slam_toolbox online_async_launch.py params_file:=./src/nav/mapper_params_online_sync.yaml use_sim_time:=False &')
+    run_command('screen -dmS mysession6 ros2 launch slam_toolbox online_async_launch.py params_file:=/home/rasp/ros2_ws/src/robot_nav/config/mapper_params_online_async.yaml use_sim_time:=False &')
