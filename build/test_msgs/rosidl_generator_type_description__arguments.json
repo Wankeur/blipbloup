@@ -1,0 +1,30 @@
+{
+  "package_name": "test_msgs",
+  "output_dir": "/home/rasp/ros2_ws/build/test_msgs/rosidl_generator_type_description/test_msgs",
+  "idl_tuples": [
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Arrays.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/BasicTypes.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/BoundedPlainSequences.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/BoundedSequences.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Constants.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Defaults.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Empty.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/MultiNested.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Nested.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Strings.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/UnboundedSequences.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/WStrings.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:srv/Arrays.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:srv/BasicTypes.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:srv/Empty.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:action/Fibonacci.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Builtins.idl",
+    "/home/rasp/ros2_ws/build/test_msgs/rosidl_adapter/test_msgs:action/NestedMessage.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

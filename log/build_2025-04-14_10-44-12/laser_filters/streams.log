@@ -1,0 +1,21 @@
+[0.022s] Invoking command in '/home/rasp/ros2_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/laser_filters -- -j2 -l2
+[0.236s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.236s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[0.236s]   project has asked CMake to find a package configuration file provided by
+[0.236s]   "ament_cmake_auto", but CMake did not find one.
+[0.236s] 
+[0.237s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[0.237s]   with any of the following names:
+[0.237s] 
+[0.237s]     ament_cmake_autoConfig.cmake
+[0.237s]     ament_cmake_auto-config.cmake
+[0.238s] 
+[0.238s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[0.238s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[0.238s]   files.  If "ament_cmake_auto" provides a separate development package or
+[0.238s]   SDK, be sure it has been installed.
+[0.238s] 
+[0.238s] [0m
+[0.239s] -- Configuring incomplete, errors occurred!
+[0.248s] gmake: *** [Makefile:650 : cmake_check_build_system] Erreur 1
+[0.252s] Invoked command in '/home/rasp/ros2_ws/build/laser_filters' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/laser_filters -- -j2 -l2

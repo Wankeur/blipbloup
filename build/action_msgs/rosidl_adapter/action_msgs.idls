@@ -1,0 +1,4 @@
+/home/rasp/ros2_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
+/home/rasp/ros2_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
+/home/rasp/ros2_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
+/home/rasp/ros2_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

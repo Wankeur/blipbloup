@@ -1,0 +1,408 @@
+[0.021s] Invoking command in '/home/rasp/ros2_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp/ros2_ws/src/ros2/rcl_interfaces/composition_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/composition_interfaces
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.153s] -- The CXX compiler identification is GNU 13.3.0
+[0.174s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.451s] -- Detecting CXX compile features
+[0.451s] -- Detecting CXX compile features - done
+[0.455s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.614s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.731s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.792s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.827s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rcl_interfaces: 2.0.2 (/home/rasp/ros2_ws/install/rcl_interfaces/share/rcl_interfaces/cmake)
+[1.612s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.103s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.107s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.265s] -- Found PythonExtra: /usr/bin/python3  
+[3.758s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.826s] -- Configuring done (3.8s)
+[3.897s] -- Generating done (0.1s)
+[3.912s] -- Build files have been written to: /home/rasp/ros2_ws/build/composition_interfaces
+[3.926s] Invoked command in '/home/rasp/ros2_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp/ros2_ws/src/ros2/rcl_interfaces/composition_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/composition_interfaces
+[3.928s] Invoking command in '/home/rasp/ros2_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp/ros2_ws/build/composition_interfaces -- -j2 -l2
+[3.997s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.360s] [  1%] Built target composition_interfaces__rosidl_generator_type_description
+[4.403s] [  1%] Built target ament_cmake_python_copy_composition_interfaces
+[4.432s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.129s] [  3%] Built target composition_interfaces__cpp
+[5.144s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.976s] [  6%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__description.c.o[0m
+[6.047s] [  7%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o[0m
+[6.133s] [  9%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[6.182s] [ 10%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__description.c.o[0m
+[6.243s] [ 12%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o[0m
+[6.329s] [ 13%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[6.379s] [ 15%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__description.c.o[0m
+[6.442s] [ 16%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o[0m
+[6.522s] [ 18%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[6.575s] [ 19%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_c.so[0m
+[6.628s] [ 19%] Built target composition_interfaces__rosidl_generator_c
+[6.862s] running egg_info
+[6.863s] creating composition_interfaces.egg-info
+[6.883s] writing composition_interfaces.egg-info/PKG-INFO
+[6.883s] writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+[6.884s] writing top-level names to composition_interfaces.egg-info/top_level.txt
+[6.884s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[6.947s] reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[6.948s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[6.983s] [ 19%] Built target ament_cmake_python_build_composition_interfaces_egg
+[6.997s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.446s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[7.992s] [ 24%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[8.438s] [ 25%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[8.823s] [ 27%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[8.932s] [ 27%] Built target composition_interfaces__rosidl_typesupport_cpp
+[8.952s] [ 28%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[9.031s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[9.032s]   warnings.warn(
+[9.518s] [ 30%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_c.c.o[0m
+[9.608s] [ 31%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_c.c.o[0m
+[9.691s] [ 33%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_c.c.o[0m
+[9.770s] [ 34%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[9.836s] [ 34%] Built target composition_interfaces__rosidl_typesupport_microxrcedds_c
+[9.855s] [ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.524s] [ 37%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/load_node__type_support_c.cpp.o[0m
+[11.074s] [ 39%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/list_nodes__type_support_c.cpp.o[0m
+[11.567s] [ 40%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/unload_node__type_support_c.cpp.o[0m
+[12.064s] [ 42%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.157s] [ 42%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[12.175s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.699s] [ 45%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[12.766s] [ 46%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[12.828s] [ 48%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[12.885s] [ 50%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_typesupport_introspection_c.so[0m
+[12.931s] [ 50%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[12.946s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.383s] [ 53%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[13.440s] [ 54%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[13.499s] [ 56%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[13.556s] [ 57%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[13.614s] [ 57%] Built target composition_interfaces__rosidl_typesupport_c
+[13.630s] [ 59%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[13.707s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[13.708s]   warnings.warn(
+[14.126s] [ 60%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp.o[0m
+[14.434s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:396:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.434s]   396 | [01;35m[K}[m[K;
+[14.435s]       | [01;35m[K^[m[K
+[14.435s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:396:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.435s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:396:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.437s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:629:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.437s]   629 | [01;35m[K}[m[K;
+[14.437s]       | [01;35m[K^[m[K
+[14.437s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:629:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.437s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:629:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.437s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.437s]   690 | [01;35m[K}[m[K;
+[14.437s]       | [01;35m[K^[m[K
+[14.438s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.438s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.438s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.438s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.438s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.440s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.440s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp:690:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.616s] [ 62%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp.o[0m
+[14.922s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.923s]   158 | [01;35m[K}[m[K;
+[14.923s]       | [01;35m[K^[m[K
+[14.923s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.923s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.925s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:416:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.925s]   416 | [01;35m[K}[m[K;
+[14.925s]       | [01;35m[K^[m[K
+[14.926s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:416:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.926s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:416:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.926s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.926s]   477 | [01;35m[K}[m[K;
+[14.926s]       | [01;35m[K^[m[K
+[14.927s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.928s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.928s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.928s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.928s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.928s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.928s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp:477:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.042s] [ 63%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp.o[0m
+[15.351s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.351s]   158 | [01;35m[K}[m[K;
+[15.352s]       | [01;35m[K^[m[K
+[15.352s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.352s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.353s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.353s]   367 | [01;35m[K}[m[K;
+[15.353s]       | [01;35m[K^[m[K
+[15.354s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.354s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.354s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.354s]   428 | [01;35m[K}[m[K;
+[15.354s]       | [01;35m[K^[m[K
+[15.356s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.356s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.356s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.356s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.356s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.356s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.356s] [01m[K/home/rasp/ros2_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.419s] [ 65%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[15.528s] [ 65%] Built target composition_interfaces__rosidl_typesupport_microxrcedds_cpp
+[15.544s] [ 66%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.180s] [ 68%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/load_node__type_support.cpp.o[0m
+[17.036s] [ 69%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/list_nodes__type_support.cpp.o[0m
+[17.785s] [ 71%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/unload_node__type_support.cpp.o[0m
+[18.410s] [ 72%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.520s] [ 72%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[18.537s] [ 74%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.056s] [ 75%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/load_node__type_support.cpp.o[0m
+[19.785s] [ 77%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/list_nodes__type_support.cpp.o[0m
+[20.325s] [ 78%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/unload_node__type_support.cpp.o[0m
+[20.731s] [ 80%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[20.838s] [ 80%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[20.868s] [ 80%] Built target composition_interfaces
+[20.897s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.969s] [ 81%] Built target composition_interfaces__py
+[22.000s] [ 83%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_load_node_s.c.o[0m
+[22.184s] [ 84%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_list_nodes_s.c.o[0m
+[22.353s] [ 86%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_unload_node_s.c.o[0m
+[22.507s] [ 87%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_py.so[0m
+[22.570s] [ 87%] Built target composition_interfaces__rosidl_generator_py
+[22.599s] [ 89%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[22.743s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_microxrcedds_c.so[0m
+[22.800s] [ 90%] Built target composition_interfaces_s__rosidl_typesupport_microxrcedds_c
+[22.833s] [ 92%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.971s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[23.017s] [ 93%] Built target composition_interfaces_s__rosidl_typesupport_fastrtps_c
+[23.047s] [ 95%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.182s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[23.228s] [ 96%] Built target composition_interfaces_s__rosidl_typesupport_introspection_c
+[23.258s] [ 98%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[23.397s] [100%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so[0m
+[23.443s] [100%] Built target composition_interfaces_s__rosidl_typesupport_c
+[23.461s] Invoked command in '/home/rasp/ros2_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp/ros2_ws/build/composition_interfaces -- -j2 -l2
+[23.462s] Invoking command in '/home/rasp/ros2_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp/ros2_ws/build/composition_interfaces
+[23.476s] -- Install configuration: ""
+[23.476s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+[23.477s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.json
+[23.477s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.json
+[23.477s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.json
+[23.479s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[23.479s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[23.480s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+[23.480s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[23.480s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+[23.481s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+[23.481s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+[23.481s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[23.482s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+[23.482s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+[23.482s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.c
+[23.482s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+[23.482s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[23.482s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__description.c
+[23.484s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.c
+[23.484s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+[23.484s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.c
+[23.484s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__description.c
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__description.c
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+[23.485s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[23.487s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+[23.487s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+[23.487s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+[23.487s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so" to ""
+[23.487s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces
+[23.487s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/msg
+[23.488s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[23.490s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv
+[23.490s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail
+[23.491s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/load_node__rosidl_typesupport_microxrcedds_c.h
+[23.491s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_microxrcedds_c.h
+[23.491s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/microxrcedds
+[23.491s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_microxrcedds_c.h
+[23.491s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.so
+[23.491s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.so" to ""
+[23.491s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[23.491s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[23.492s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.492s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[23.492s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[23.492s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+[23.492s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+[23.492s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+[23.492s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+[23.492s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[23.493s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[23.493s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[23.495s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.495s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[23.496s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[23.496s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+[23.496s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[23.496s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+[23.496s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+[23.496s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[23.496s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[23.497s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+[23.497s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[23.497s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+[23.497s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+[23.497s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[23.499s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[23.499s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.500s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[23.500s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[23.500s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.hpp
+[23.500s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.hpp
+[23.500s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+[23.500s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+[23.500s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+[23.500s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+[23.501s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+[23.501s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+[23.501s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+[23.501s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+[23.501s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.hpp
+[23.501s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+[23.501s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+[23.503s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+[23.503s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+[23.503s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces
+[23.503s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/msg
+[23.504s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[23.504s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv
+[23.504s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail
+[23.504s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/load_node__rosidl_typesupport_microxrcedds_cpp.hpp
+[23.504s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_microxrcedds_cpp.hpp
+[23.504s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_microxrcedds_cpp.hpp
+[23.504s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/microxrcedds
+[23.504s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_cpp.cpp
+[23.507s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_cpp.cpp
+[23.507s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_cpp.cpp
+[23.507s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[23.507s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[23.508s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[23.508s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[23.508s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.508s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[23.508s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[23.508s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/dds_fastrtps
+[23.508s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+[23.508s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+[23.508s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[23.508s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[23.508s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.508s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[23.508s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[23.508s] -- Up-to-date: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[23.509s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.cpp
+[23.509s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+[23.509s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.cpp
+[23.509s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+[23.509s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+[23.511s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.cpp
+[23.511s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+[23.512s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[23.512s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+[23.512s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+[23.512s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+[23.512s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+[23.512s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info
+[23.512s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/SOURCES.txt
+[23.513s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/dependency_links.txt
+[23.515s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/PKG-INFO
+[23.516s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/top_level.txt
+[23.516s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces
+[23.516s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.516s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py
+[23.516s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[23.516s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_microxrcedds_c.so
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/__init__.py
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node.py
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node.py
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes_s.c
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes.py
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node_s.c
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node_s.c
+[23.517s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+[23.519s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[23.566s] Listing '/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces'...
+[23.566s] Compiling '/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py'...
+[23.568s] Listing '/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv'...
+[23.568s] Compiling '/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/__init__.py'...
+[23.568s] Compiling '/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes.py'...
+[23.568s] Compiling '/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node.py'...
+[23.568s] Compiling '/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node.py'...
+[23.572s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_microxrcedds_c.so
+[23.573s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[23.573s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[23.574s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[23.575s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+[23.575s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[23.575s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+[23.576s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so" to ""
+[23.577s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+[23.577s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+[23.577s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+[23.577s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+[23.578s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+[23.578s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+[23.578s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+[23.578s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+[23.579s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+[23.579s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+[23.579s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+[23.580s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+[23.580s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+[23.580s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+[23.581s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+[23.581s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+[23.583s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+[23.583s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/package.dsv
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.584s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+[23.585s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[23.585s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+[23.585s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.585s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.587s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[23.587s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.587s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+[23.587s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[23.587s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+[23.587s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[23.588s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+[23.589s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.589s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.589s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[23.589s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[23.590s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.592s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.592s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+[23.592s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+[23.592s] -- Installing: /home/rasp/ros2_ws/install/composition_interfaces/share/composition_interfaces/package.xml
+[23.594s] Invoked command in '/home/rasp/ros2_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp/ros2_ws/build/composition_interfaces

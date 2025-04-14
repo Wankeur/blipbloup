@@ -1,0 +1,6 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KProcessus arrêté signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rf2o_laser_odometry.dir/build.make:76 : CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:165 : CMakeFiles/rf2o_laser_odometry.dir/all] Erreur 2
+gmake[1]: *** Attente des tâches non terminées....
+gmake: *** [Makefile:146 : all] Erreur 2

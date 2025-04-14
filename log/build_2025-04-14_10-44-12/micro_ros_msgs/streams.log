@@ -1,0 +1,27 @@
+[0.029s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_msgs -- -j2 -l2
+[0.280s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[0.302s] [  1%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.353s] [  3%] Built target micro_ros_msgs__cpp
+[0.381s] [ 19%] Built target micro_ros_msgs__rosidl_generator_c
+[0.449s] [ 27%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_cpp
+[0.502s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.562s] [ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.600s] running egg_info
+[0.617s] writing micro_ros_msgs.egg-info/PKG-INFO
+[0.618s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[0.618s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[0.618s] [ 50%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.668s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[0.669s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[0.670s] [ 57%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_c
+[0.708s] [ 57%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[0.729s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.762s] [ 72%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.776s] [ 80%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.822s] [ 80%] Built target micro_ros_msgs
+[0.867s] [ 81%] Built target micro_ros_msgs__py
+[0.919s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[0.966s] [ 93%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[0.966s] [ 93%] Built target micro_ros_msgs_s__rosidl_typesupport_microxrcedds_c
+[1.013s] [ 96%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c
+[1.019s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_c

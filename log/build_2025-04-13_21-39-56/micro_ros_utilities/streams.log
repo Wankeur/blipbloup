@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rasp/ros2_ws/src/uros/micro_ros_utilities -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_utilities
+[0.080s] -- The C compiler identification is GNU 13.3.0
+[0.146s] -- The CXX compiler identification is GNU 13.3.0
+[0.168s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.291s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.440s] -- Detecting CXX compile features - done
+[0.448s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.607s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.720s] -- Found rosidl_typesupport_introspection_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/cmake)
+[0.861s] -- Configuring done (0.8s)
+[0.867s] -- Generating done (0.0s)
+[0.869s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_utilities
+[0.879s] Invoked command in '/home/rasp/ros2_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rasp/ros2_ws/src/uros/micro_ros_utilities -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_utilities
+[0.879s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_utilities -- -j2 -l2
+[0.957s] [ 33%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.o[0m
+[0.998s] [ 66%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.o[0m
+[1.067s] [100%] [32m[1mLinking C shared library libmicro_ros_utilities.so[0m
+[1.110s] [100%] Built target micro_ros_utilities
+[1.127s] Invoked command in '/home/rasp/ros2_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_utilities -- -j2 -l2
+[1.128s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_utilities
+[1.144s] -- Install configuration: ""
+[1.144s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/include
+[1.145s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/include/micro_ros_utilities
+[1.145s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/include/micro_ros_utilities/string_utilities.h
+[1.145s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/include/micro_ros_utilities/visibility_control.h
+[1.145s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/include/micro_ros_utilities/type_utilities.h
+[1.146s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.so
+[1.147s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.so" to ""
+[1.147s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.sh
+[1.147s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.dsv
+[1.148s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/ament_index/resource_index/package_run_dependencies/micro_ros_utilities
+[1.148s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/ament_index/resource_index/parent_prefix_path/micro_ros_utilities
+[1.149s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.sh
+[1.149s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.dsv
+[1.149s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.sh
+[1.150s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.dsv
+[1.150s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.bash
+[1.150s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.sh
+[1.150s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.zsh
+[1.151s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.dsv
+[1.151s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.dsv
+[1.151s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/ament_index/resource_index/packages/micro_ros_utilities
+[1.152s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.152s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_libraries-extras.cmake
+[1.153s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.153s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig.cmake
+[1.153s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig-version.cmake
+[1.155s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.xml
+[1.156s] Invoked command in '/home/rasp/ros2_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_utilities

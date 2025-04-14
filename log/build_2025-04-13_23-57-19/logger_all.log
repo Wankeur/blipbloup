@@ -1,0 +1,504 @@
+[0.108s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x764f6adb2c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764f6adb29c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764f6adb29c0>>, mixin_verb=('build',))
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rasp/ros2_ws'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(filtre) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(pdfs) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_python' and name 'robot_description'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_nav) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_nav' with type 'ros.ament_cmake' and name 'robot_nav'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.205s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 44 installed packages in /home/rasp/ros2_ws/install
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/jazzy
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.260s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'micro_ros_msgs' is in: /home/rasp/ros2_ws/install/micro_ros_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding micro_ros_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/ros2_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/rasp/ros2_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/ros2_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/ros2_ws/install/robot_description', 'merge_install': False, 'path': '/home/rasp/ros2_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robot_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'robot_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/ros2_ws/build/robot_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/ros2_ws/install/robot_nav', 'merge_install': False, 'path': '/home/rasp/ros2_ws/src/robot_nav', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/ros2_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/ros2_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/rasp/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.263s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp/ros2_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp/ros2_ws/src/uros/micro_ros_msgs'
+[0.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rasp/ros2_ws/src/robot_description' with build type 'ament_python'
+[0.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_msgs -- -j2 -l2
+[0.638s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rasp/ros2_ws/src/robot_description'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_msgs -- -j2 -l2
+[1.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_msgs
+[1.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_msgs
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs' for CMake module files
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs' for CMake config files
+[1.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/lib'
+[1.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/bin'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[1.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/bin'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[1.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[1.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[1.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[1.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs' for CMake module files
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs' for CMake config files
+[1.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[1.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/lib'
+[1.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/bin'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[1.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_msgs/bin'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[1.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[1.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp/ros2_ws/src/robot_nav' with build type 'ament_cmake'
+[1.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp/ros2_ws/src/robot_nav'
+[1.454s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.454s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/robot_nav -- -j2 -l2
+[1.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/ros2_ws/src/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rasp/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/rasp/ros2_ws/build/robot_description/build install --record /home/rasp/ros2_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/robot_nav -- -j2 -l2
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/robot_nav
+[1.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_nav)
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav' for CMake module files
+[1.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/robot_nav
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav' for CMake config files
+[1.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_nav', 'cmake_prefix_path')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/hook/cmake_prefix_path.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/hook/cmake_prefix_path.dsv'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/hook/cmake_prefix_path.sh'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/bin'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/lib/pkgconfig/robot_nav.pc'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/lib/python3.12/site-packages'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/bin'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.sh'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.bash'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.zsh'
+[1.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/ros2_ws/install/robot_nav/share/colcon-core/packages/robot_nav)
+[1.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_nav)
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav' for CMake module files
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav' for CMake config files
+[1.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_nav', 'cmake_prefix_path')
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/hook/cmake_prefix_path.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/hook/cmake_prefix_path.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/hook/cmake_prefix_path.sh'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/bin'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/lib/pkgconfig/robot_nav.pc'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/lib/python3.12/site-packages'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_nav/bin'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.ps1'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.dsv'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.sh'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.bash'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.zsh'
+[1.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/ros2_ws/install/robot_nav/share/colcon-core/packages/robot_nav)
+[1.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[1.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[1.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_setup:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_agent -- -j2 -l2
+[1.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_setup:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_agent -- -j2 -l2
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_setup:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_agent
+[1.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent' for CMake module files
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent' for CMake config files
+[1.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_setup:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_agent
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/lib'
+[1.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/bin'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/bin'
+[1.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[1.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent' for CMake module files
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent' for CMake config files
+[1.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/lib'
+[1.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/bin'
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/micro_ros_agent/bin'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_description' for CMake module files
+[2.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/ros2_ws/src/robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rasp/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/rasp/ros2_ws/build/robot_description/build install --record /home/rasp/ros2_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_description' for CMake config files
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_description/lib'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_description/bin'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages'
+[2.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/ros2_ws/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/ros2_ws/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/ros2_ws/install/robot_description/bin'
+[2.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[2.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[2.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.136s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.157s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/ros2_ws/install/local_setup.ps1'
+[2.159s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp/ros2_ws/install/_local_setup_util_ps1.py'
+[2.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/ros2_ws/install/setup.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/ros2_ws/install/local_setup.sh'
+[2.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp/ros2_ws/install/_local_setup_util_sh.py'
+[2.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/ros2_ws/install/setup.sh'
+[2.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/ros2_ws/install/local_setup.bash'
+[2.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/ros2_ws/install/setup.bash'
+[2.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/ros2_ws/install/local_setup.zsh'
+[2.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/ros2_ws/install/setup.zsh'

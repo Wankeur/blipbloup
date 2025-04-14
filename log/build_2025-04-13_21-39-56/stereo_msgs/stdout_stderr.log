@@ -1,0 +1,262 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 5.3.6 (/home/rasp/ros2_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (4.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/rasp/ros2_ws/build/stereo_msgs
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target stereo_msgs__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_stereo_msgs
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target stereo_msgs__cpp
+[  7%] [34m[1mGenerating C code for ROS interfaces[0m
+[  9%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o[0m
+[ 16%] [32m[1mLinking C shared library libstereo_msgs__rosidl_generator_c.so[0m
+[ 16%] Built target stereo_msgs__rosidl_generator_c
+running egg_info
+creating stereo_msgs.egg-info
+writing stereo_msgs.egg-info/PKG-INFO
+writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+writing top-level names to stereo_msgs.egg-info/top_level.txt
+writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[ 16%] Built target ament_cmake_python_build_stereo_msgs_egg
+[ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_cpp.so[0m
+[ 23%] Built target stereo_msgs__rosidl_typesupport_cpp
+[ 26%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+  warnings.warn(
+[ 28%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_c.c.o[0m
+[ 30%] [32m[1mLinking C shared library libstereo_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[ 30%] Built target stereo_msgs__rosidl_typesupport_microxrcedds_c
+[ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stereo_msgs/msg/detail/disparity_image__type_support_c.cpp.o[0m
+[ 38%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 38%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 42%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o[0m
+[ 45%] [32m[1mLinking C shared library libstereo_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 45%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_c.so[0m
+[ 52%] Built target stereo_msgs__rosidl_typesupport_c
+[ 54%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+  warnings.warn(
+[ 57%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp.o[0m
+[01m[K/home/rasp/ros2_ws/build/stereo_msgs/rosidl_typesupport_microxrcedds_cpp/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp:328:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  328 | [01;35m[K}[m[K;
+      | [01;35m[K^[m[K
+[01m[K/home/rasp/ros2_ws/build/stereo_msgs/rosidl_typesupport_microxrcedds_cpp/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp:328:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/rasp/ros2_ws/build/stereo_msgs/rosidl_typesupport_microxrcedds_cpp/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp:328:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[ 59%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[ 59%] Built target stereo_msgs__rosidl_typesupport_microxrcedds_cpp
+[ 61%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stereo_msgs/msg/detail/dds_fastrtps/disparity_image__type_support.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 66%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[ 69%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/detail/disparity_image__type_support.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 73%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[ 73%] Built target stereo_msgs
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target stereo_msgs__py
+[ 78%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_py.dir/rosidl_generator_py/stereo_msgs/msg/_disparity_image_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library libstereo_msgs__rosidl_generator_py.so[0m
+[ 80%] Built target stereo_msgs__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[ 85%] [32m[1mLinking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[ 85%] Built target stereo_msgs_s__rosidl_typesupport_microxrcedds_c
+[ 88%] [32mBuilding C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 90%] Built target stereo_msgs_s__rosidl_typesupport_fastrtps_c
+[ 92%] [32mBuilding C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[ 95%] Built target stereo_msgs_s__rosidl_typesupport_introspection_c
+[ 97%] [32mBuilding C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so[0m
+[100%] Built target stereo_msgs_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.json
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__description.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.sh
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.dsv
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/detail/microxrcedds
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.hpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/detail/microxrcedds
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+-- Up-to-date: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.cpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.sh
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.dsv
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/top_level.txt
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/__init__.py
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image.py
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/__init__.py
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image_s.c
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.so
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs'...
+Compiling '/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/__init__.py'...
+Listing '/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg'...
+Compiling '/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/__init__.py'...
+Compiling '/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image.py'...
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.idl
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.msg
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/path.sh
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/environment/path.dsv
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/local_setup.bash
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/local_setup.sh
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/local_setup.zsh
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/local_setup.dsv
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/package.dsv
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/ament_index/resource_index/packages/stereo_msgs
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+-- Installing: /home/rasp/ros2_ws/install/stereo_msgs/share/stereo_msgs/package.xml

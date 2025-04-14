@@ -1,0 +1,1401 @@
+[0.072s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_demos_rclc
+[0.143s] -- The C compiler identification is GNU 13.3.0
+[0.210s] -- The CXX compiler identification is GNU 13.3.0
+[0.233s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.401s] -- Detecting CXX compiler ABI info
+[0.550s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.565s] -- Detecting CXX compile features - done
+[0.569s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.760s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.272s] -- Configuring done (1.2s)
+[1.313s] -- Generating done (0.0s)
+[1.323s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc
+[1.340s] Invoked command in '/home/rasp/ros2_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_demos_rclc
+[1.340s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_demos_rclc -- -j2 -l2
+[1.428s] [  1%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[1.472s] [  2%] [34m[1mNo download step for 'graph_visualizer'[0m
+[1.514s] [  3%] [34m[1mNo update step for 'graph_visualizer'[0m
+[1.556s] [  3%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[1.598s] [  3%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[1.614s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[1.674s] -- The C compiler identification is GNU 13.3.0
+[1.698s] -- Detecting C compiler ABI info
+[1.837s] -- Detecting C compiler ABI info - done
+[1.846s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.847s] -- Detecting C compile features
+[1.847s] -- Detecting C compile features - done
+[1.852s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.047s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.198s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[2.261s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.285s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.324s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.456s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.462s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.588s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.613s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.671s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[2.729s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[2.751s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[2.763s] -- Configuring done (1.1s)
+[2.778s] -- Generating done (0.0s)
+[2.780s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[2.820s] [  4%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[2.890s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[3.002s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[3.113s] [100%] Built target graph_visualizer
+[3.139s] [  4%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[3.213s] [100%] Built target graph_visualizer
+[3.254s] [36mInstall the project...[0m
+[3.267s] -- Install configuration: ""
+[3.268s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[3.268s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[3.285s] [  4%] [34m[1mCompleted 'graph_visualizer'[0m
+[3.340s] [  4%] Built target graph_visualizer
+[3.370s] [  5%] [34m[1mCreating directories for 'subscription_count'[0m
+[3.418s] [  6%] [34m[1mNo download step for 'subscription_count'[0m
+[3.459s] [  7%] [34m[1mNo update step for 'subscription_count'[0m
+[3.505s] [  7%] [34m[1mNo patch step for 'subscription_count'[0m
+[3.546s] [  7%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[3.559s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[3.621s] -- The C compiler identification is GNU 13.3.0
+[3.643s] -- Detecting C compiler ABI info
+[3.769s] -- Detecting C compiler ABI info - done
+[3.779s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.780s] -- Detecting C compile features
+[3.782s] -- Detecting C compile features - done
+[3.786s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.971s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.121s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[4.184s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.205s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.241s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.360s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.365s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.485s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.509s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.541s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.569s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[4.624s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[4.634s] -- Configuring done (1.1s)
+[4.645s] -- Generating done (0.0s)
+[4.648s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[4.686s] [  7%] [34m[1mPerforming build step for 'subscription_count'[0m
+[4.756s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[4.843s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[4.850s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:51:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.850s]    51 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[4.850s]       |   [01;35m[K^~~~~~~[m[K
+[4.850s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[4.850s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:4[m[K:
+[4.850s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.850s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[4.850s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.876s] [100%] [32m[1mLinking C executable subscription_count[0m
+[4.976s] [100%] Built target subscription_count
+[5.006s] [  7%] [34m[1mPerforming install step for 'subscription_count'[0m
+[5.080s] [100%] Built target subscription_count
+[5.112s] [36mInstall the project...[0m
+[5.126s] -- Install configuration: ""
+[5.126s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[5.128s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[5.146s] [  8%] [34m[1mCompleted 'subscription_count'[0m
+[5.197s] [  8%] Built target subscription_count
+[5.231s] [  8%] [34m[1mCreating directories for 'publisher_count'[0m
+[5.274s] [  8%] [34m[1mNo download step for 'publisher_count'[0m
+[5.317s] [  8%] [34m[1mNo update step for 'publisher_count'[0m
+[5.358s] [  9%] [34m[1mNo patch step for 'publisher_count'[0m
+[5.399s] [ 10%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[5.414s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[5.470s] -- The C compiler identification is GNU 13.3.0
+[5.494s] -- Detecting C compiler ABI info
+[5.624s] -- Detecting C compiler ABI info - done
+[5.634s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.634s] -- Detecting C compile features
+[5.634s] -- Detecting C compile features - done
+[5.639s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.827s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.975s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[6.040s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.061s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.097s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.226s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.231s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.350s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.372s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.402s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.431s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[6.490s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[6.501s] -- Configuring done (1.1s)
+[6.514s] -- Generating done (0.0s)
+[6.516s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[6.554s] [ 10%] [34m[1mPerforming build step for 'publisher_count'[0m
+[6.627s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[6.708s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.708s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:51:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.708s]    51 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[6.708s]       |   [01;35m[K^~~~~~~[m[K
+[6.709s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.709s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:4[m[K:
+[6.709s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.709s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.709s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.738s] [100%] [32m[1mLinking C executable publisher_count[0m
+[6.838s] [100%] Built target publisher_count
+[6.864s] [ 11%] [34m[1mPerforming install step for 'publisher_count'[0m
+[6.934s] [100%] Built target publisher_count
+[6.962s] [36mInstall the project...[0m
+[6.977s] -- Install configuration: ""
+[6.977s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[6.977s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[6.992s] [ 12%] [34m[1mCompleted 'publisher_count'[0m
+[7.047s] [ 12%] Built target publisher_count
+[7.082s] [ 12%] [34m[1mCreating directories for 'int32_publisher'[0m
+[7.126s] [ 12%] [34m[1mNo download step for 'int32_publisher'[0m
+[7.165s] [ 12%] [34m[1mNo update step for 'int32_publisher'[0m
+[7.210s] [ 13%] [34m[1mNo patch step for 'int32_publisher'[0m
+[7.252s] [ 14%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[7.269s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[7.327s] -- The C compiler identification is GNU 13.3.0
+[7.351s] -- Detecting C compiler ABI info
+[7.478s] -- Detecting C compiler ABI info - done
+[7.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.487s] -- Detecting C compile features
+[7.488s] -- Detecting C compile features - done
+[7.494s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.679s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.831s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[7.892s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.916s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.952s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.982s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.073s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.079s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.196s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.225s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.281s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[8.337s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[8.376s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[8.376s] -- Configuring done (1.1s)
+[8.379s] -- Generating done (0.0s)
+[8.381s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[8.423s] [ 14%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[8.498s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[8.581s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[8.581s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[8.581s]    49 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[8.582s]       |         [01;35m[K^~~~~~~[m[K
+[8.582s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[8.582s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:3[m[K:
+[8.582s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.582s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[8.582s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.609s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[8.722s] [100%] Built target int32_publisher
+[8.754s] [ 15%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[8.834s] [100%] Built target int32_publisher
+[8.862s] [36mInstall the project...[0m
+[8.876s] -- Install configuration: ""
+[8.876s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[8.876s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[8.891s] [ 16%] [34m[1mCompleted 'int32_publisher'[0m
+[8.946s] [ 16%] Built target int32_publisher
+[8.981s] [ 17%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[9.025s] [ 18%] [34m[1mNo download step for 'int32_subscriber'[0m
+[9.066s] [ 18%] [34m[1mNo update step for 'int32_subscriber'[0m
+[9.107s] [ 18%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[9.146s] [ 18%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[9.159s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[9.215s] -- The C compiler identification is GNU 13.3.0
+[9.241s] -- Detecting C compiler ABI info
+[9.366s] -- Detecting C compiler ABI info - done
+[9.375s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.375s] -- Detecting C compile features
+[9.375s] -- Detecting C compile features - done
+[9.380s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.576s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.722s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[9.787s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.803s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.841s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[9.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.967s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.973s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[10.094s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[10.117s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.148s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.176s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[10.233s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[10.254s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.264s] -- Configuring done (1.1s)
+[10.277s] -- Generating done (0.0s)
+[10.279s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[10.318s] [ 19%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[10.395s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[10.499s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[10.603s] [100%] Built target int32_subscriber
+[10.636s] [ 19%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[10.708s] [100%] Built target int32_subscriber
+[10.740s] [36mInstall the project...[0m
+[10.754s] -- Install configuration: ""
+[10.754s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[10.755s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[10.773s] [ 19%] [34m[1mCompleted 'int32_subscriber'[0m
+[10.828s] [ 19%] Built target int32_subscriber
+[10.863s] [ 20%] [34m[1mCreating directories for 'configured_publisher'[0m
+[10.904s] [ 21%] [34m[1mNo download step for 'configured_publisher'[0m
+[10.948s] [ 22%] [34m[1mNo update step for 'configured_publisher'[0m
+[10.988s] [ 22%] [34m[1mNo patch step for 'configured_publisher'[0m
+[11.027s] [ 22%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[11.045s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[11.100s] -- The C compiler identification is GNU 13.3.0
+[11.122s] -- Detecting C compiler ABI info
+[11.252s] -- Detecting C compiler ABI info - done
+[11.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.262s] -- Detecting C compile features
+[11.262s] -- Detecting C compile features - done
+[11.269s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[11.455s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.598s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[11.664s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[11.685s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[11.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.721s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[11.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.854s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[11.861s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[11.984s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[12.008s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[12.038s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.067s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[12.121s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[12.147s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[12.155s] -- Configuring done (1.1s)
+[12.169s] -- Generating done (0.0s)
+[12.171s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[12.208s] [ 23%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[12.279s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[12.369s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[12.369s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:69:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.369s]    69 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[12.369s]       |         [01;35m[K^~~~~~~[m[K
+[12.369s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[12.369s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:3[m[K:
+[12.369s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.369s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[12.369s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.396s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[12.505s] [100%] Built target configured_publisher
+[12.533s] [ 23%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[12.613s] [100%] Built target configured_publisher
+[12.650s] [36mInstall the project...[0m
+[12.665s] -- Install configuration: ""
+[12.666s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[12.666s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[12.682s] [ 23%] [34m[1mCompleted 'configured_publisher'[0m
+[12.739s] [ 23%] Built target configured_publisher
+[12.771s] [ 24%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[12.812s] [ 25%] [34m[1mNo download step for 'configured_subscriber'[0m
+[12.852s] [ 25%] [34m[1mNo update step for 'configured_subscriber'[0m
+[12.890s] [ 25%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[12.929s] [ 25%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[12.942s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[13.000s] -- The C compiler identification is GNU 13.3.0
+[13.027s] -- Detecting C compiler ABI info
+[13.150s] -- Detecting C compiler ABI info - done
+[13.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[13.160s] -- Detecting C compile features
+[13.160s] -- Detecting C compile features - done
+[13.166s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[13.342s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[13.489s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[13.552s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[13.573s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[13.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.606s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[13.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.729s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[13.735s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[13.856s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[13.879s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[13.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.936s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[13.997s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[14.018s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[14.029s] -- Configuring done (1.1s)
+[14.041s] -- Generating done (0.0s)
+[14.045s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[14.086s] [ 26%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[14.159s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[14.274s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[14.376s] [100%] Built target configured_subscriber
+[14.404s] [ 26%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[14.481s] [100%] Built target configured_subscriber
+[14.511s] [36mInstall the project...[0m
+[14.524s] -- Install configuration: ""
+[14.524s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[14.528s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[14.540s] [ 26%] [34m[1mCompleted 'configured_subscriber'[0m
+[14.590s] [ 26%] Built target configured_subscriber
+[14.624s] [ 26%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[14.663s] [ 26%] [34m[1mNo download step for 'addtwoints_server'[0m
+[14.701s] [ 27%] [34m[1mNo update step for 'addtwoints_server'[0m
+[14.739s] [ 27%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[14.781s] [ 28%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[14.796s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[14.853s] -- The C compiler identification is GNU 13.3.0
+[14.878s] -- Detecting C compiler ABI info
+[15.004s] -- Detecting C compiler ABI info - done
+[15.013s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.013s] -- Detecting C compile features
+[15.013s] -- Detecting C compile features - done
+[15.018s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[15.208s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[15.350s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[15.415s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[15.434s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[15.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.472s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[15.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.595s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[15.600s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[15.737s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[15.760s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[15.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.819s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[15.875s] -- Found example_interfaces: 0.12.0 (/home/rasp/ros2_ws/install/example_interfaces/share/example_interfaces/cmake)
+[15.911s] -- Configuring done (1.1s)
+[15.921s] -- Generating done (0.0s)
+[15.926s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[15.959s] [ 28%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[16.032s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[16.146s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[16.266s] [100%] Built target addtwoints_server
+[16.299s] [ 29%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[16.372s] [100%] Built target addtwoints_server
+[16.402s] [36mInstall the project...[0m
+[16.415s] -- Install configuration: ""
+[16.415s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[16.416s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[16.434s] [ 30%] [34m[1mCompleted 'addtwoints_server'[0m
+[16.486s] [ 30%] Built target addtwoints_server
+[16.518s] [ 30%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[16.561s] [ 30%] [34m[1mNo download step for 'addtwoints_client'[0m
+[16.598s] [ 30%] [34m[1mNo update step for 'addtwoints_client'[0m
+[16.638s] [ 31%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[16.680s] [ 32%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[16.695s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[16.753s] -- The C compiler identification is GNU 13.3.0
+[16.781s] -- Detecting C compiler ABI info
+[16.907s] -- Detecting C compiler ABI info - done
+[16.917s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.917s] -- Detecting C compile features
+[16.918s] -- Detecting C compile features - done
+[16.923s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[17.109s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[17.255s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[17.324s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[17.345s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[17.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.384s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[17.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.511s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[17.517s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[17.638s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[17.663s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[17.693s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.721s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[17.776s] -- Found example_interfaces: 0.12.0 (/home/rasp/ros2_ws/install/example_interfaces/share/example_interfaces/cmake)
+[17.809s] -- Configuring done (1.1s)
+[17.822s] -- Generating done (0.0s)
+[17.824s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[17.861s] [ 32%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[17.931s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[18.045s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[18.154s] [100%] Built target addtwoints_client
+[18.184s] [ 33%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[18.253s] [100%] Built target addtwoints_client
+[18.281s] [36mInstall the project...[0m
+[18.298s] -- Install configuration: ""
+[18.298s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[18.299s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[18.321s] [ 33%] [34m[1mCompleted 'addtwoints_client'[0m
+[18.375s] [ 33%] Built target addtwoints_client
+[18.409s] [ 34%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[18.451s] [ 35%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[18.496s] [ 36%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[18.539s] [ 36%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[18.572s] [ 36%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[18.587s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[18.647s] -- The C compiler identification is GNU 13.3.0
+[18.670s] -- Detecting C compiler ABI info
+[18.807s] -- Detecting C compiler ABI info - done
+[18.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[18.817s] -- Detecting C compile features
+[18.817s] -- Detecting C compile features - done
+[18.823s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[19.015s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[19.176s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[19.241s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[19.263s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[19.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.301s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[19.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.424s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[19.431s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[19.549s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[19.573s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[19.613s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.641s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[19.699s] -- Found example_interfaces: 0.12.0 (/home/rasp/ros2_ws/install/example_interfaces/share/example_interfaces/cmake)
+[19.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[19.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[19.854s] -- Found Threads: TRUE  
+[19.857s] -- Configuring done (1.3s)
+[19.868s] -- Generating done (0.0s)
+[19.870s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[19.914s] [ 37%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[19.986s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[20.113s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[20.223s] [100%] Built target fibonacci_action_server
+[20.254s] [ 37%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[20.328s] [100%] Built target fibonacci_action_server
+[20.359s] [36mInstall the project...[0m
+[20.372s] -- Install configuration: ""
+[20.373s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[20.373s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[20.390s] [ 37%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[20.449s] [ 37%] Built target fibonacci_action_server
+[20.485s] [ 38%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[20.529s] [ 38%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[20.571s] [ 39%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[20.614s] [ 39%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[20.650s] [ 40%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[20.665s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[20.723s] -- The C compiler identification is GNU 13.3.0
+[20.748s] -- Detecting C compiler ABI info
+[20.871s] -- Detecting C compiler ABI info - done
+[20.880s] -- Check for working C compiler: /usr/bin/cc - skipped
+[20.881s] -- Detecting C compile features
+[20.881s] -- Detecting C compile features - done
+[20.886s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[21.075s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[21.217s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[21.280s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[21.298s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[21.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.335s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[21.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.453s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[21.459s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[21.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[21.602s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[21.629s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.656s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[21.709s] -- Found example_interfaces: 0.12.0 (/home/rasp/ros2_ws/install/example_interfaces/share/example_interfaces/cmake)
+[21.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[21.871s] -- Found Threads: TRUE  
+[21.876s] -- Configuring done (1.2s)
+[21.886s] -- Generating done (0.0s)
+[21.889s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[21.931s] [ 40%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[22.003s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[22.128s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[22.261s] [100%] Built target fibonacci_action_client
+[22.288s] [ 40%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[22.362s] [100%] Built target fibonacci_action_client
+[22.395s] [36mInstall the project...[0m
+[22.406s] -- Install configuration: ""
+[22.406s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[22.406s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[22.422s] [ 41%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[22.474s] [ 41%] Built target fibonacci_action_client
+[22.507s] [ 41%] [34m[1mCreating directories for 'int32_multinode'[0m
+[22.551s] [ 42%] [34m[1mNo download step for 'int32_multinode'[0m
+[22.593s] [ 42%] [34m[1mNo update step for 'int32_multinode'[0m
+[22.637s] [ 43%] [34m[1mNo patch step for 'int32_multinode'[0m
+[22.676s] [ 43%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[22.691s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[22.755s] -- The C compiler identification is GNU 13.3.0
+[22.780s] -- Detecting C compiler ABI info
+[22.909s] -- Detecting C compiler ABI info - done
+[22.922s] -- Check for working C compiler: /usr/bin/cc - skipped
+[22.922s] -- Detecting C compile features
+[22.922s] -- Detecting C compile features - done
+[22.926s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[23.120s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[23.268s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[23.333s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[23.355s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[23.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.390s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[23.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.517s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[23.525s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[23.653s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[23.675s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[23.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.739s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[23.795s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[23.819s] -- Configuring done (1.1s)
+[23.832s] -- Generating done (0.0s)
+[23.834s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[23.871s] [ 44%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[23.948s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[24.030s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[24.030s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:85:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.030s]    85 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[24.030s]       |         [01;35m[K^~~~~~~[m[K
+[24.030s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[24.030s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:3[m[K:
+[24.030s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.032s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[24.032s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.032s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:118:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.032s]   118 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[24.032s]       |         [01;35m[K^~~~~~~[m[K
+[24.032s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.032s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[24.032s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.060s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[24.168s] [100%] Built target int32_multinode
+[24.196s] [ 44%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[24.277s] [100%] Built target int32_multinode
+[24.304s] [36mInstall the project...[0m
+[24.316s] -- Install configuration: ""
+[24.318s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[24.318s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[24.338s] [ 44%] [34m[1mCompleted 'int32_multinode'[0m
+[24.389s] [ 44%] Built target int32_multinode
+[24.422s] [ 45%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[24.471s] [ 46%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[24.510s] [ 47%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[24.555s] [ 47%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[24.593s] [ 47%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[24.607s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[24.670s] -- The C compiler identification is GNU 13.3.0
+[24.693s] -- Detecting C compiler ABI info
+[24.817s] -- Detecting C compiler ABI info - done
+[24.826s] -- Check for working C compiler: /usr/bin/cc - skipped
+[24.826s] -- Detecting C compile features
+[24.829s] -- Detecting C compile features - done
+[24.838s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[25.034s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[25.182s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[25.250s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[25.269s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[25.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.304s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[25.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.432s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[25.443s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[25.556s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[25.579s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[25.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.635s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[25.689s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[25.708s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[25.717s] -- Configuring done (1.1s)
+[25.729s] -- Generating done (0.0s)
+[25.734s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[25.775s] [ 47%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[25.845s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[25.925s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[25.925s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:63:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[25.925s]    63 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[25.925s]       |         [01;35m[K^~~~~~~[m[K
+[25.925s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[25.925s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:3[m[K:
+[25.926s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.926s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[25.926s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.958s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[26.065s] [100%] Built target int32_publisher_subscriber
+[26.092s] [ 47%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[26.169s] [100%] Built target int32_publisher_subscriber
+[26.201s] [36mInstall the project...[0m
+[26.212s] -- Install configuration: ""
+[26.212s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[26.212s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[26.228s] [ 48%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[26.284s] [ 48%] Built target int32_publisher_subscriber
+[26.318s] [ 49%] [34m[1mCreating directories for 'ping_pong'[0m
+[26.359s] [ 50%] [34m[1mNo download step for 'ping_pong'[0m
+[26.397s] [ 51%] [34m[1mNo update step for 'ping_pong'[0m
+[26.439s] [ 51%] [34m[1mNo patch step for 'ping_pong'[0m
+[26.477s] [ 51%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[26.491s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[26.549s] -- The C compiler identification is GNU 13.3.0
+[26.573s] -- Detecting C compiler ABI info
+[26.698s] -- Detecting C compiler ABI info - done
+[26.707s] -- Check for working C compiler: /usr/bin/cc - skipped
+[26.707s] -- Detecting C compile features
+[26.710s] -- Detecting C compile features - done
+[26.713s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[26.904s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[27.049s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[27.112s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[27.136s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[27.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.171s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[27.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[27.291s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[27.297s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[27.418s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[27.441s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[27.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.502s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[27.555s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[27.574s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[27.584s] -- Configuring done (1.1s)
+[27.596s] -- Generating done (0.0s)
+[27.600s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[27.634s] [ 52%] [34m[1mPerforming build step for 'ping_pong'[0m
+[27.704s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[27.789s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[27.789s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:103:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[27.789s]   103 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(2000), ping_timer_callback));
+[27.789s]       |         [01;35m[K^~~~~~~[m[K
+[27.789s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[27.789s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:3[m[K:
+[27.789s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.789s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[27.789s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.820s] [100%] [32m[1mLinking C executable ping_pong[0m
+[27.927s] [100%] Built target ping_pong
+[27.956s] [ 52%] [34m[1mPerforming install step for 'ping_pong'[0m
+[28.038s] [100%] Built target ping_pong
+[28.071s] [36mInstall the project...[0m
+[28.084s] -- Install configuration: ""
+[28.085s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[28.085s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[28.102s] [ 52%] [34m[1mCompleted 'ping_pong'[0m
+[28.158s] [ 52%] Built target ping_pong
+[28.192s] [ 52%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[28.232s] [ 52%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[28.273s] [ 52%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[28.313s] [ 53%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[28.354s] [ 53%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[28.369s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[28.428s] -- The C compiler identification is GNU 13.3.0
+[28.454s] -- Detecting C compiler ABI info
+[28.586s] -- Detecting C compiler ABI info - done
+[28.595s] -- Check for working C compiler: /usr/bin/cc - skipped
+[28.595s] -- Detecting C compile features
+[28.596s] -- Detecting C compile features - done
+[28.601s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[28.791s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[28.937s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[29.005s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[29.029s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[29.051s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[29.065s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[29.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.188s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[29.196s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[29.313s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[29.337s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[29.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[29.409s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[29.471s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[29.477s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[29.501s] -- Configuring done (1.1s)
+[29.516s] -- Generating done (0.0s)
+[29.518s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[29.561s] [ 54%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[29.633s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[29.721s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[29.721s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:131:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[29.721s]   131 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[29.722s]       |         [01;35m[K^~~~~~~[m[K
+[29.724s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[29.724s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:3[m[K:
+[29.724s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[29.724s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[29.724s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.751s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[29.859s] [100%] Built target ping_uros_agent
+[29.888s] [ 55%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[29.961s] [100%] Built target ping_uros_agent
+[29.995s] [36mInstall the project...[0m
+[30.010s] -- Install configuration: ""
+[30.010s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[30.011s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[30.031s] [ 55%] [34m[1mCompleted 'ping_uros_agent'[0m
+[30.089s] [ 55%] Built target ping_uros_agent
+[30.123s] [ 55%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[30.166s] [ 55%] [34m[1mNo download step for 'fragmented_publication'[0m
+[30.205s] [ 55%] [34m[1mNo update step for 'fragmented_publication'[0m
+[30.245s] [ 56%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[30.288s] [ 57%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[30.302s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[30.360s] -- The C compiler identification is GNU 13.3.0
+[30.387s] -- Detecting C compiler ABI info
+[30.513s] -- Detecting C compiler ABI info - done
+[30.522s] -- Check for working C compiler: /usr/bin/cc - skipped
+[30.523s] -- Detecting C compile features
+[30.523s] -- Detecting C compile features - done
+[30.530s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[30.720s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[30.872s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[30.937s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[30.957s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[30.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[31.000s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[31.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31.136s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[31.145s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[31.281s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[31.306s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[31.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31.362s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[31.424s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[31.444s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[31.453s] -- Configuring done (1.1s)
+[31.467s] -- Generating done (0.0s)
+[31.470s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[31.508s] [ 57%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[31.583s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[31.668s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[31.668s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:50:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[31.669s]    50 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[31.669s]       |         [01;35m[K^~~~~~~[m[K
+[31.669s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[31.669s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:3[m[K:
+[31.669s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[31.669s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[31.669s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.700s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[31.805s] [100%] Built target fragmented_publication
+[31.834s] [ 58%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[31.916s] [100%] Built target fragmented_publication
+[31.946s] [36mInstall the project...[0m
+[31.960s] -- Install configuration: ""
+[31.960s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[31.961s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[31.982s] [ 58%] [34m[1mCompleted 'fragmented_publication'[0m
+[32.037s] [ 58%] Built target fragmented_publication
+[32.073s] [ 58%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[32.118s] [ 58%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[32.157s] [ 59%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[32.205s] [ 59%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[32.242s] [ 60%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[32.257s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[32.322s] -- The C compiler identification is GNU 13.3.0
+[32.344s] -- Detecting C compiler ABI info
+[32.484s] -- Detecting C compiler ABI info - done
+[32.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[32.493s] -- Detecting C compile features
+[32.495s] -- Detecting C compile features - done
+[32.500s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[32.690s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[32.833s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[32.897s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[32.918s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[32.939s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.952s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[32.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[33.078s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[33.085s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[33.215s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[33.236s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[33.264s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[33.295s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[33.349s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[33.368s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[33.378s] -- Configuring done (1.1s)
+[33.393s] -- Generating done (0.0s)
+[33.397s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[33.435s] [ 60%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[33.508s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[33.616s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[33.731s] [100%] Built target fragmented_subscription
+[33.755s] [ 61%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[33.829s] [100%] Built target fragmented_subscription
+[33.857s] [36mInstall the project...[0m
+[33.870s] -- Install configuration: ""
+[33.871s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[33.871s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[33.889s] [ 62%] [34m[1mCompleted 'fragmented_subscription'[0m
+[33.944s] [ 62%] Built target fragmented_subscription
+[33.975s] [ 62%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[34.016s] [ 62%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[34.052s] [ 62%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[34.090s] [ 63%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[34.130s] [ 63%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[34.144s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[34.204s] -- The C compiler identification is GNU 13.3.0
+[34.229s] -- Detecting C compiler ABI info
+[34.357s] -- Detecting C compiler ABI info - done
+[34.366s] -- Check for working C compiler: /usr/bin/cc - skipped
+[34.368s] -- Detecting C compile features
+[34.368s] -- Detecting C compile features - done
+[34.372s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[34.565s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[34.709s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[34.773s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[34.795s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[34.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.835s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[34.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[34.964s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[34.970s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[35.093s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[35.119s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[35.151s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[35.178s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[35.239s] -- Found complex_msgs: 5.0.1 (/home/rasp/ros2_ws/install/complex_msgs/share/complex_msgs/cmake)
+[35.258s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[35.268s] -- Configuring done (1.1s)
+[35.280s] -- Generating done (0.0s)
+[35.283s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[35.322s] [ 64%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[35.393s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[35.516s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[35.611s] [100%] Built target complex_msg_publisher
+[35.641s] [ 65%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[35.713s] [100%] Built target complex_msg_publisher
+[35.744s] [36mInstall the project...[0m
+[35.757s] -- Install configuration: ""
+[35.757s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[35.757s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[35.773s] [ 65%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[35.833s] [ 65%] Built target complex_msg_publisher
+[35.866s] [ 65%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[35.907s] [ 65%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[35.949s] [ 65%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[35.984s] [ 66%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[36.027s] [ 67%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[36.042s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[36.101s] -- The C compiler identification is GNU 13.3.0
+[36.134s] -- Detecting C compiler ABI info
+[36.344s] -- Detecting C compiler ABI info - done
+[36.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[36.354s] -- Detecting C compile features
+[36.354s] -- Detecting C compile features - done
+[36.361s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[36.599s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[36.776s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[36.850s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[36.871s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[36.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[36.912s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[36.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[37.045s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[37.051s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[37.184s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[37.213s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[37.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[37.285s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[37.346s] -- Found complex_msgs: 5.0.1 (/home/rasp/ros2_ws/install/complex_msgs/share/complex_msgs/cmake)
+[37.368s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[37.379s] -- Configuring done (1.3s)
+[37.392s] -- Generating done (0.0s)
+[37.394s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[37.441s] [ 67%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[37.515s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[37.645s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[37.763s] [100%] Built target complex_msg_subscriber
+[37.796s] [ 68%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[37.885s] [100%] Built target complex_msg_subscriber
+[37.917s] [36mInstall the project...[0m
+[37.937s] -- Install configuration: ""
+[37.938s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[37.939s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[37.960s] [ 69%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[38.029s] [ 69%] Built target complex_msg_subscriber
+[38.067s] [ 70%] [34m[1mCreating directories for 'timer'[0m
+[38.125s] [ 71%] [34m[1mNo download step for 'timer'[0m
+[38.171s] [ 72%] [34m[1mNo update step for 'timer'[0m
+[38.214s] [ 72%] [34m[1mNo patch step for 'timer'[0m
+[38.256s] [ 72%] [34m[1mPerforming configure step for 'timer'[0m
+[38.271s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[38.337s] -- The C compiler identification is GNU 13.3.0
+[38.373s] -- Detecting C compiler ABI info
+[38.520s] -- Detecting C compiler ABI info - done
+[38.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[38.535s] -- Detecting C compile features
+[38.535s] -- Detecting C compile features - done
+[38.539s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[38.751s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[38.921s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[38.994s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[39.016s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[39.045s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[39.059s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[39.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[39.200s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[39.206s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[39.351s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[39.377s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[39.407s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[39.439s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[39.492s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[39.512s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[39.523s] -- Configuring done (1.3s)
+[39.544s] -- Generating done (0.0s)
+[39.547s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/timer/src/timer-build
+[39.598s] [ 73%] [34m[1mPerforming build step for 'timer'[0m
+[39.684s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[39.768s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[39.768s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:34:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[39.768s]    34 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[39.768s]       |         [01;35m[K^~~~~~~[m[K
+[39.768s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[39.768s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:3[m[K:
+[39.768s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[39.768s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[39.768s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.796s] [100%] [32m[1mLinking C executable timer[0m
+[39.909s] [100%] Built target timer
+[39.937s] [ 73%] [34m[1mPerforming install step for 'timer'[0m
+[40.017s] [100%] Built target timer
+[40.050s] [36mInstall the project...[0m
+[40.065s] -- Install configuration: ""
+[40.066s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/timer/timer
+[40.066s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[40.084s] [ 73%] [34m[1mCompleted 'timer'[0m
+[40.145s] [ 73%] Built target timer
+[40.182s] [ 73%] [34m[1mCreating directories for 'string_publisher'[0m
+[40.229s] [ 74%] [34m[1mNo download step for 'string_publisher'[0m
+[40.274s] [ 74%] [34m[1mNo update step for 'string_publisher'[0m
+[40.317s] [ 75%] [34m[1mNo patch step for 'string_publisher'[0m
+[40.367s] [ 75%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[40.384s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[40.445s] -- The C compiler identification is GNU 13.3.0
+[40.472s] -- Detecting C compiler ABI info
+[40.607s] -- Detecting C compiler ABI info - done
+[40.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[40.618s] -- Detecting C compile features
+[40.618s] -- Detecting C compile features - done
+[40.624s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[40.827s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[40.993s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[41.070s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[41.093s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[41.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[41.130s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[41.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[41.261s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[41.268s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[41.402s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[41.426s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[41.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.485s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[41.537s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[41.559s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[41.571s] -- Configuring done (1.2s)
+[41.584s] -- Generating done (0.0s)
+[41.586s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[41.627s] [ 76%] [34m[1mPerforming build step for 'string_publisher'[0m
+[41.705s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[41.787s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[41.787s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:54:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[41.787s]    54 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[41.787s]       |         [01;35m[K^~~~~~~[m[K
+[41.787s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[41.787s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:3[m[K:
+[41.787s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[41.788s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[41.788s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.815s] [100%] [32m[1mLinking C executable string_publisher[0m
+[41.914s] [100%] Built target string_publisher
+[41.943s] [ 76%] [34m[1mPerforming install step for 'string_publisher'[0m
+[42.021s] [100%] Built target string_publisher
+[42.054s] [36mInstall the project...[0m
+[42.070s] -- Install configuration: ""
+[42.070s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[42.071s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[42.089s] [ 76%] [34m[1mCompleted 'string_publisher'[0m
+[42.149s] [ 76%] Built target string_publisher
+[42.186s] [ 76%] [34m[1mCreating directories for 'string_subscriber'[0m
+[42.232s] [ 76%] [34m[1mNo download step for 'string_subscriber'[0m
+[42.276s] [ 76%] [34m[1mNo update step for 'string_subscriber'[0m
+[42.320s] [ 77%] [34m[1mNo patch step for 'string_subscriber'[0m
+[42.364s] [ 78%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[42.381s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[42.442s] -- The C compiler identification is GNU 13.3.0
+[42.472s] -- Detecting C compiler ABI info
+[42.611s] -- Detecting C compiler ABI info - done
+[42.619s] -- Check for working C compiler: /usr/bin/cc - skipped
+[42.619s] -- Detecting C compile features
+[42.620s] -- Detecting C compile features - done
+[42.626s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[42.824s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[42.977s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[43.037s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[43.057s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[43.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[43.093s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[43.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[43.215s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[43.221s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[43.354s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[43.378s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[43.406s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[43.436s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[43.493s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[43.515s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[43.525s] -- Configuring done (1.1s)
+[43.538s] -- Generating done (0.0s)
+[43.540s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[43.585s] [ 78%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[43.663s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[43.774s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[43.906s] [100%] Built target string_subscriber
+[43.935s] [ 79%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[44.017s] [100%] Built target string_subscriber
+[44.050s] [36mInstall the project...[0m
+[44.064s] -- Install configuration: ""
+[44.064s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[44.065s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[44.084s] [ 80%] [34m[1mCompleted 'string_subscriber'[0m
+[44.143s] [ 80%] Built target string_subscriber
+[44.181s] [ 81%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[44.221s] [ 82%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[44.258s] [ 83%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[44.298s] [ 83%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[44.337s] [ 83%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[44.350s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[44.412s] -- The C compiler identification is GNU 13.3.0
+[44.437s] -- Detecting C compiler ABI info
+[44.578s] -- Detecting C compiler ABI info - done
+[44.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[44.587s] -- Detecting C compile features
+[44.588s] -- Detecting C compile features - done
+[44.594s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[44.797s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[44.950s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[45.020s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[45.041s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[45.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[45.080s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[45.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[45.208s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[45.214s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[45.347s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[45.373s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[45.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[45.428s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[45.480s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[45.502s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[45.511s] -- Configuring done (1.2s)
+[45.523s] -- Generating done (0.0s)
+[45.523s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[45.563s] [ 84%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[45.640s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[45.736s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[45.736s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:61:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.737s]    61 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[45.737s]       |         [01;35m[K^~~~~~~[m[K
+[45.737s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[45.737s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:3[m[K:
+[45.737s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.737s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[45.737s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[45.764s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[45.875s] [100%] Built target autodiscover_agent
+[45.905s] [ 84%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[45.989s] [100%] Built target autodiscover_agent
+[46.022s] [36mInstall the project...[0m
+[46.035s] -- Install configuration: ""
+[46.036s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[46.036s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[46.054s] [ 84%] [34m[1mCompleted 'autodiscover_agent'[0m
+[46.116s] [ 84%] Built target autodiscover_agent
+[46.152s] [ 85%] [34m[1mCreating directories for 'static_type_handling'[0m
+[46.198s] [ 86%] [34m[1mNo download step for 'static_type_handling'[0m
+[46.240s] [ 87%] [34m[1mNo update step for 'static_type_handling'[0m
+[46.283s] [ 87%] [34m[1mNo patch step for 'static_type_handling'[0m
+[46.327s] [ 87%] [34m[1mPerforming configure step for 'static_type_handling'[0m
+[46.343s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/static_type_handling/tmp/static_type_handling-cache-.cmake
+[46.409s] -- The C compiler identification is GNU 13.3.0
+[46.436s] -- Detecting C compiler ABI info
+[46.581s] -- Detecting C compiler ABI info - done
+[46.590s] -- Check for working C compiler: /usr/bin/cc - skipped
+[46.590s] -- Detecting C compile features
+[46.591s] -- Detecting C compile features - done
+[46.596s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[46.778s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[46.937s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[47.003s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[47.025s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[47.051s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[47.064s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[47.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[47.192s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[47.199s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[47.337s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[47.363s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[47.394s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[47.425s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[47.477s] -- Found visualization_msgs: 5.3.6 (/home/rasp/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake)
+[47.587s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[47.596s] -- Found micro_ros_utilities: 5.0.1 (/home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[47.604s] -- Configuring done (1.3s)
+[47.621s] -- Generating done (0.0s)
+[47.623s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/static_type_handling/src/static_type_handling-build
+[47.666s] [ 88%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[47.740s] [ 50%] [32mBuilding C object CMakeFiles/static_type_handling.dir/main.c.o[0m
+[47.831s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[47.832s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:61:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[47.832s]    61 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[47.832s]       |   [01;35m[K^~~~~~~[m[K
+[47.832s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[47.832s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:5[m[K:
+[47.832s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.832s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[47.832s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.861s] [100%] [32m[1mLinking C executable static_type_handling[0m
+[47.973s] [100%] Built target static_type_handling
+[48.004s] [ 88%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[48.086s] [100%] Built target static_type_handling
+[48.119s] [36mInstall the project...[0m
+[48.134s] -- Install configuration: ""
+[48.134s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[48.135s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling" to ""
+[48.152s] [ 88%] [34m[1mCompleted 'static_type_handling'[0m
+[48.208s] [ 88%] Built target static_type_handling
+[48.244s] [ 88%] [34m[1mCreating directories for 'epoch_synchronization'[0m
+[48.287s] [ 88%] [34m[1mNo download step for 'epoch_synchronization'[0m
+[48.332s] [ 88%] [34m[1mNo update step for 'epoch_synchronization'[0m
+[48.378s] [ 89%] [34m[1mNo patch step for 'epoch_synchronization'[0m
+[48.422s] [ 90%] [34m[1mPerforming configure step for 'epoch_synchronization'[0m
+[48.439s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/epoch_synchronization/tmp/epoch_synchronization-cache-.cmake
+[48.499s] -- The C compiler identification is GNU 13.3.0
+[48.527s] -- Detecting C compiler ABI info
+[48.664s] -- Detecting C compiler ABI info - done
+[48.674s] -- Check for working C compiler: /usr/bin/cc - skipped
+[48.674s] -- Detecting C compile features
+[48.674s] -- Detecting C compile features - done
+[48.680s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[48.875s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[49.030s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[49.091s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[49.111s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[49.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[49.145s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[49.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[49.270s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[49.276s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[49.408s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[49.435s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[49.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[49.497s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[49.557s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[49.578s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[49.587s] -- Configuring done (1.1s)
+[49.601s] -- Generating done (0.0s)
+[49.603s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-build
+[49.650s] [ 90%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[49.732s] [ 50%] [32mBuilding C object CMakeFiles/epoch_synchronization.dir/main.c.o[0m
+[49.821s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[49.822s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:53:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[49.822s]    53 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[49.822s]       |         [01;35m[K^~~~~~~[m[K
+[49.822s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[49.822s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:3[m[K:
+[49.822s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[49.822s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[49.822s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[49.851s] [100%] [32m[1mLinking C executable epoch_synchronization[0m
+[49.969s] [100%] Built target epoch_synchronization
+[50.001s] [ 91%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[50.084s] [100%] Built target epoch_synchronization
+[50.120s] [36mInstall the project...[0m
+[50.137s] -- Install configuration: ""
+[50.137s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[50.137s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization" to ""
+[50.156s] [ 92%] [34m[1mCompleted 'epoch_synchronization'[0m
+[50.211s] [ 92%] Built target epoch_synchronization
+[50.245s] [ 93%] [34m[1mCreating directories for 'parameter_server'[0m
+[50.284s] [ 93%] [34m[1mNo download step for 'parameter_server'[0m
+[50.323s] [ 94%] [34m[1mNo update step for 'parameter_server'[0m
+[50.366s] [ 94%] [34m[1mNo patch step for 'parameter_server'[0m
+[50.409s] [ 95%] [34m[1mPerforming configure step for 'parameter_server'[0m
+[50.425s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/parameter_server/tmp/parameter_server-cache-.cmake
+[50.488s] -- The C compiler identification is GNU 13.3.0
+[50.514s] -- Detecting C compiler ABI info
+[50.648s] -- Detecting C compiler ABI info - done
+[50.656s] -- Check for working C compiler: /usr/bin/cc - skipped
+[50.656s] -- Detecting C compile features
+[50.657s] -- Detecting C compile features - done
+[50.662s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[50.863s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[51.023s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[51.089s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[51.110s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[51.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[51.148s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[51.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[51.277s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[51.283s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[51.413s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[51.436s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[51.463s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[51.489s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[51.540s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[51.561s] -- Found rclc_parameter: 6.1.0 (/home/rasp/ros2_ws/install/rclc_parameter/share/rclc_parameter/cmake)
+[51.566s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[51.576s] -- Configuring done (1.1s)
+[51.589s] -- Generating done (0.0s)
+[51.591s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build
+[51.632s] [ 95%] [34m[1mPerforming build step for 'parameter_server'[0m
+[51.707s] [ 50%] [32mBuilding C object CMakeFiles/parameter_server.dir/main.c.o[0m
+[51.814s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[51.814s] [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:91:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[51.814s]    91 |   [01;35m[KRCCHECK[m[K(
+[51.814s]       |   [01;35m[K^~~~~~~[m[K
+[51.815s] In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[51.815s]                  from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:3[m[K:
+[51.815s] [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[51.815s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[51.815s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.847s] [100%] [32m[1mLinking C executable parameter_server[0m
+[51.967s] [100%] Built target parameter_server
+[51.997s] [ 95%] [34m[1mPerforming install step for 'parameter_server'[0m
+[52.081s] [100%] Built target parameter_server
+[52.114s] [36mInstall the project...[0m
+[52.132s] -- Install configuration: ""
+[52.132s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[52.133s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server" to ""
+[52.152s] [ 96%] [34m[1mCompleted 'parameter_server'[0m
+[52.208s] [ 96%] Built target parameter_server
+[52.247s] [ 96%] [34m[1mCreating directories for 'multithread_publisher_subscriber'[0m
+[52.292s] [ 96%] [34m[1mNo download step for 'multithread_publisher_subscriber'[0m
+[52.336s] [ 96%] [34m[1mNo update step for 'multithread_publisher_subscriber'[0m
+[52.383s] [ 97%] [34m[1mNo patch step for 'multithread_publisher_subscriber'[0m
+[52.426s] [ 98%] [34m[1mPerforming configure step for 'multithread_publisher_subscriber'[0m
+[52.442s] loading initial cache file /home/rasp/ros2_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/tmp/multithread_publisher_subscriber-cache-.cmake
+[52.505s] -- The C compiler identification is GNU 13.3.0
+[52.534s] -- Detecting C compiler ABI info
+[52.659s] -- Detecting C compiler ABI info - done
+[52.667s] -- Check for working C compiler: /usr/bin/cc - skipped
+[52.667s] -- Detecting C compile features
+[52.667s] -- Detecting C compile features - done
+[52.673s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[52.866s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[53.015s] -- Found rcl: 9.2.5 (/opt/ros/jazzy/share/rcl/cmake)
+[53.081s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[53.101s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[53.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[53.137s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[53.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[53.266s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[53.272s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[53.404s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[53.428s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[53.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[53.488s] -- Found rclc: 6.1.0 (/home/rasp/ros2_ws/install/rclc/share/rclc/cmake)
+[53.544s] -- Found std_msgs: 5.3.6 (/home/rasp/ros2_ws/install/std_msgs/share/std_msgs/cmake)
+[53.565s] -- Found rmw_microxrcedds: 5.0.1 (/home/rasp/ros2_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[53.572s] -- Found micro_ros_utilities: 5.0.1 (/home/rasp/ros2_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[53.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[53.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[53.711s] -- Found Threads: TRUE  
+[53.717s] -- Configuring done (1.3s)
+[53.731s] -- Generating done (0.0s)
+[53.735s] -- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/src/multithread_publisher_subscriber-build
+[53.779s] [ 98%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[53.849s] [ 50%] [32mBuilding C object CMakeFiles/multithread_publisher_subscriber.dir/main.c.o[0m
+[53.967s] [100%] [32m[1mLinking C executable multithread_publisher_subscriber[0m
+[54.082s] [100%] Built target multithread_publisher_subscriber
+[54.112s] [ 99%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[54.198s] [100%] Built target multithread_publisher_subscriber
+[54.230s] [36mInstall the project...[0m
+[54.247s] -- Install configuration: ""
+[54.248s] -- Installing: /home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[54.248s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber" to ""
+[54.267s] [100%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[54.325s] [100%] Built target multithread_publisher_subscriber
+[54.347s] Invoked command in '/home/rasp/ros2_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/rasp/ros2_ws/build/micro_ros_demos_rclc -- -j2 -l2
+[54.349s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_demos_rclc
+[54.362s] -- Install configuration: ""
+[54.363s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[54.363s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[54.363s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[54.363s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[54.363s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[54.363s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[54.364s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[54.364s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[54.364s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[54.364s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[54.364s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[54.365s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[54.365s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[54.365s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[54.366s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[54.367s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[54.368s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[54.368s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[54.368s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[54.368s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[54.369s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[54.369s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[54.369s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[54.369s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[54.369s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[54.369s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[54.369s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[54.370s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[54.370s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[54.370s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[54.370s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[54.370s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[54.370s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[54.371s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[54.371s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[54.371s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[54.371s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[54.371s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[54.372s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[54.372s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[54.372s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[54.372s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[54.373s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[54.373s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[54.373s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[54.373s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[54.373s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[54.374s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[54.374s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[54.375s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[54.375s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[54.375s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[54.375s] -- Installing: /home/rasp/ros2_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[54.379s] Invoked command in '/home/rasp/ros2_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/rasp/ros2_ws/build/micro_ros_demos_rclc

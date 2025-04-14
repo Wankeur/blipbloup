@@ -1,0 +1,141 @@
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:51:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   51 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:4[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:51:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   51 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:4[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   49 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:69:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   69 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:85:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   85 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:118:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:63:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   63 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:103:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  103 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(2000), ping_timer_callback));
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:131:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  131 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:50:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   50 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:34:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   34 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:54:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   54 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:61:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   61 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:61:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   61 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:5[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:53:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   53 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+      |         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:91:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   91 |   [01;35m[KRCCHECK[m[K(
+      |   [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+                 from [01m[K/home/rasp/ros2_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:3[m[K:
+[01m[K/home/rasp/ros2_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   63 | [01;36m[Krclc_timer_init_default[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K

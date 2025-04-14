@@ -1,0 +1,268 @@
+[0.016s] Invoking command in '/home/rasp/ros2_ws/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rasp/ros2_ws/src/ros2/unique_identifier_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/unique_identifier_msgs
+[0.092s] -- The C compiler identification is GNU 13.3.0
+[0.162s] -- The CXX compiler identification is GNU 13.3.0
+[0.187s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.339s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.531s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.721s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.844s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[0.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.898s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.711s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.075s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.253s] -- Found PythonExtra: /usr/bin/python3  
+[4.870s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.928s] -- Configuring done (4.9s)
+[4.992s] -- Generating done (0.1s)
+[5.009s] -- Build files have been written to: /home/rasp/ros2_ws/build/unique_identifier_msgs
+[5.018s] Invoked command in '/home/rasp/ros2_ws/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rasp/ros2_ws/src/ros2/unique_identifier_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/unique_identifier_msgs
+[5.019s] Invoking command in '/home/rasp/ros2_ws/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/unique_identifier_msgs -- -j2 -l2
+[5.109s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.338s] [  2%] Built target unique_identifier_msgs__rosidl_generator_type_description
+[5.392s] [  2%] Built target ament_cmake_python_copy_unique_identifier_msgs
+[5.411s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.748s] [  7%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__description.c.o[0m
+[5.813s] [  9%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__functions.c.o[0m
+[5.895s] [ 11%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__type_support.c.o[0m
+[5.950s] [ 14%] [32m[1mLinking C shared library libunique_identifier_msgs__rosidl_generator_c.so[0m
+[6.010s] [ 14%] Built target unique_identifier_msgs__rosidl_generator_c
+[6.051s] [ 16%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.417s] [ 16%] Built target unique_identifier_msgs__cpp
+[6.805s] running egg_info
+[6.807s] creating unique_identifier_msgs.egg-info
+[6.850s] writing unique_identifier_msgs.egg-info/PKG-INFO
+[6.852s] writing dependency_links to unique_identifier_msgs.egg-info/dependency_links.txt
+[6.852s] writing top-level names to unique_identifier_msgs.egg-info/top_level.txt
+[6.853s] writing manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[6.928s] reading manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[6.929s] writing manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[6.965s] [ 16%] Built target ament_cmake_python_build_unique_identifier_msgs_egg
+[6.982s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.284s] [ 21%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unique_identifier_msgs/msg/detail/uuid__type_support.c.o[0m
+[7.335s] [ 23%] [32m[1mLinking C shared library libunique_identifier_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.376s] [ 23%] Built target unique_identifier_msgs__rosidl_typesupport_introspection_c
+[7.390s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.611s] [ 28%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unique_identifier_msgs/msg/uuid__type_support.cpp.o[0m
+[7.658s] [ 30%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_c.so[0m
+[7.711s] [ 30%] Built target unique_identifier_msgs__rosidl_typesupport_c
+[7.725s] [ 33%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[7.794s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[7.795s]   warnings.warn(
+[7.963s] [ 35%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_cpp.cpp.o[0m
+[8.273s] [01m[K/home/rasp/ros2_ws/build/unique_identifier_msgs/rosidl_typesupport_microxrcedds_cpp/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.273s]   168 | [01;35m[K}[m[K;
+[8.274s]       | [01;35m[K^[m[K
+[8.274s] [01m[K/home/rasp/ros2_ws/build/unique_identifier_msgs/rosidl_typesupport_microxrcedds_cpp/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.274s] [01m[K/home/rasp/ros2_ws/build/unique_identifier_msgs/rosidl_typesupport_microxrcedds_cpp/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.339s] [ 38%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[8.398s] [ 38%] Built target unique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp
+[8.417s] [ 40%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.681s] [ 42%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unique_identifier_msgs/msg/detail/dds_fastrtps/uuid__type_support.cpp.o[0m
+[9.196s] [ 45%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.294s] [ 45%] Built target unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp
+[9.306s] [ 47%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.565s] [ 50%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unique_identifier_msgs/msg/detail/uuid__type_support.cpp.o[0m
+[9.903s] [ 52%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.008s] [ 52%] Built target unique_identifier_msgs__rosidl_typesupport_introspection_cpp
+[10.025s] [ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.285s] [ 57%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unique_identifier_msgs/msg/uuid__type_support.cpp.o[0m
+[10.715s] [ 59%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_cpp.so[0m
+[10.806s] [ 59%] Built target unique_identifier_msgs__rosidl_typesupport_cpp
+[10.821s] [ 61%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[10.898s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[10.898s]   warnings.warn(
+[11.083s] [ 64%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_c.c.o[0m
+[11.139s] [ 66%] [32m[1mLinking C shared library libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[11.189s] [ 66%] Built target unique_identifier_msgs__rosidl_typesupport_microxrcedds_c
+[11.203s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.461s] [ 71%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unique_identifier_msgs/msg/detail/uuid__type_support_c.cpp.o[0m
+[11.987s] [ 73%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.060s] [ 73%] Built target unique_identifier_msgs__rosidl_typesupport_fastrtps_c
+[12.088s] [ 73%] Built target unique_identifier_msgs
+[12.114s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.478s] [ 76%] Built target unique_identifier_msgs__py
+[12.510s] [ 78%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_generator_py.dir/rosidl_generator_py/unique_identifier_msgs/msg/_uuid_s.c.o[0m
+[12.630s] [ 80%] [32m[1mLinking C shared library libunique_identifier_msgs__rosidl_generator_py.so[0m
+[12.688s] [ 80%] Built target unique_identifier_msgs__rosidl_generator_py
+[12.722s] [ 83%] [32mBuilding C object CMakeFiles/unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[12.860s] [ 85%] [32m[1mLinking C shared module rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[12.949s] [ 85%] Built target unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c
+[12.991s] [ 88%] [32mBuilding C object CMakeFiles/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.104s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[13.144s] [ 90%] Built target unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c
+[13.176s] [ 92%] [32mBuilding C object CMakeFiles/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.287s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[13.328s] [ 95%] Built target unique_identifier_msgs_s__rosidl_typesupport_introspection_c
+[13.362s] [ 97%] [32mBuilding C object CMakeFiles/unique_identifier_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.474s] [100%] [32m[1mLinking C shared module rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so[0m
+[13.518s] [100%] Built target unique_identifier_msgs_s__rosidl_typesupport_c
+[13.536s] Invoked command in '/home/rasp/ros2_ws/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/unique_identifier_msgs -- -j2 -l2
+[13.539s] Invoking command in '/home/rasp/ros2_ws/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/unique_identifier_msgs
+[13.551s] -- Install configuration: ""
+[13.551s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/ament_index/resource_index/rosidl_interfaces/unique_identifier_msgs
+[13.551s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.json
+[13.552s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[13.552s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.h
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.h
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__description.c
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.c
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.h
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.c
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/library_path.sh
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/library_path.dsv
+[13.556s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so
+[13.558s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so" to ""
+[13.558s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs
+[13.560s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg
+[13.561s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/detail
+[13.561s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_microxrcedds_c.h
+[13.562s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/detail/microxrcedds
+[13.562s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[13.562s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.so
+[13.562s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[13.563s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[13.563s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[13.563s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[13.563s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_fastrtps_c.h
+[13.563s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.563s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+[13.563s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.564s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[13.564s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[13.566s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.566s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[13.566s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_c.h
+[13.566s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.c
+[13.566s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+[13.567s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.567s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+[13.570s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_c.so" to ""
+[13.570s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[13.573s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[13.573s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[13.573s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp
+[13.573s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__builder.hpp
+[13.573s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp
+[13.573s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.hpp
+[13.573s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.hpp
+[13.573s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.574s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs
+[13.574s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg
+[13.574s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/detail
+[13.574s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_microxrcedds_cpp.hpp
+[13.577s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/detail/microxrcedds
+[13.577s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_cpp.cpp
+[13.577s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[13.577s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[13.577s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[13.578s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[13.578s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[13.578s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[13.578s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/dds_fastrtps
+[13.578s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_fastrtps_cpp.hpp
+[13.578s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.580s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.580s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.580s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[13.580s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[13.580s] -- Up-to-date: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[13.580s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_cpp.hpp
+[13.580s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.cpp
+[13.580s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+[13.580s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.580s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+[13.580s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so" to ""
+[13.580s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/pythonpath.sh
+[13.581s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/pythonpath.dsv
+[13.581s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info
+[13.581s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/SOURCES.txt
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/dependency_links.txt
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/PKG-INFO
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs-2.5.0-py3.12.egg-info/top_level.txt
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/__init__.py
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so
+[13.584s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg
+[13.585s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/__init__.py
+[13.585s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/_uuid.py
+[13.585s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/_uuid_s.c
+[13.585s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_c.c
+[13.627s] Listing '/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs'...
+[13.628s] Compiling '/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/__init__.py'...
+[13.628s] Listing '/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg'...
+[13.628s] Compiling '/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/__init__.py'...
+[13.628s] Compiling '/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/msg/_uuid.py'...
+[13.634s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[13.636s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[13.636s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.636s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[13.636s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so
+[13.637s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[13.638s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so
+[13.640s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.so" to ""
+[13.640s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_py.so
+[13.640s] -- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_py.so" to ""
+[13.642s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl
+[13.642s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.msg
+[13.643s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/ament_index/resource_index/package_run_dependencies/unique_identifier_msgs
+[13.643s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/ament_index/resource_index/parent_prefix_path/unique_identifier_msgs
+[13.643s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/ament_prefix_path.sh
+[13.643s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/ament_prefix_path.dsv
+[13.646s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/path.sh
+[13.646s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/path.dsv
+[13.646s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.bash
+[13.646s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.sh
+[13.646s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.zsh
+[13.646s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.dsv
+[13.646s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/package.dsv
+[13.647s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/ament_index/resource_index/packages/unique_identifier_msgs
+[13.647s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cExport.cmake
+[13.647s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.647s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.647s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.647s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.647s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.650s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport.cmake
+[13.650s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.651s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cppExport.cmake
+[13.651s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.651s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.651s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.651s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.652s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport.cmake
+[13.652s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.653s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_pyExport.cmake
+[13.653s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake-extras.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig-version.cmake
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/package.xml
+[13.654s] -- Installing: /home/rasp/ros2_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/mapping_rules.yaml
+[13.660s] Invoked command in '/home/rasp/ros2_ws/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/unique_identifier_msgs

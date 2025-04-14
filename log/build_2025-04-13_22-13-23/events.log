@@ -1,0 +1,913 @@
+[0.000000] (-) TimerEvent: {}
+[0.001169] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001290] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict({'micro_ros_msgs': '/home/rasp/ros2_ws/install/micro_ros_msgs'})}
+[0.001378] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.020563] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.023092] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/rasp/ros2_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_msgs'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspbotix:@/tmp/.ICE-unix/2385,unix/raspbotix:/tmp/.ICE-unix/2385', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d38b2c78_2917_4731_bb5f_2d56c5fe265f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4ACQ42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy'}), 'shell': False}
+[0.048682] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.085297] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.100193] (-) TimerEvent: {}
+[0.200580] (-) TimerEvent: {}
+[0.205327] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.217542] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.258661] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.291801] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.301295] (-) TimerEvent: {}
+[0.402746] (-) TimerEvent: {}
+[0.503361] (-) TimerEvent: {}
+[0.604116] (-) TimerEvent: {}
+[0.625183] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.704396] (-) TimerEvent: {}
+[0.779533] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.805916] (-) TimerEvent: {}
+[0.906694] (-) TimerEvent: {}
+[0.971095] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.973345] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.007327] (-) TimerEvent: {}
+[1.107985] (-) TimerEvent: {}
+[1.208694] (-) TimerEvent: {}
+[1.310140] (-) TimerEvent: {}
+[1.330631] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.368262] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.411082] (-) TimerEvent: {}
+[1.467753] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.487014] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_msgs\n'}
+[1.493424] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.495072] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[1.495113] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/micro_ros_msgs', '--', '-j2', '-l2'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspbotix:@/tmp/.ICE-unix/2385,unix/raspbotix:/tmp/.ICE-unix/2385', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d38b2c78_2917_4731_bb5f_2d56c5fe265f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4ACQ42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy'}), 'shell': False}
+[1.511971] (-) TimerEvent: {}
+[1.585561] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target micro_ros_msgs__rosidl_generator_type_description\n'}
+[1.609774] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[1.612441] (-) TimerEvent: {}
+[1.632896] (micro_ros_msgs) StdoutLine: {'line': b'[  3%] Built target micro_ros_msgs__cpp\n'}
+[1.661196] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[1.710813] (micro_ros_msgs) StdoutLine: {'line': b'[ 27%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_cpp\n'}
+[1.712806] (-) TimerEvent: {}
+[1.755611] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.799601] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.813215] (-) TimerEvent: {}
+[1.845371] (micro_ros_msgs) StdoutLine: {'line': b'[ 50%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[1.886611] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_c\n'}
+[1.895955] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.914125] (-) TimerEvent: {}
+[1.921101] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[1.923299] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[1.924836] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[1.939406] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.985486] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[1.999849] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.000304] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.014821] (-) TimerEvent: {}
+[2.034103] (micro_ros_msgs) StdoutLine: {'line': b'[ 80%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[2.050220] (micro_ros_msgs) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[2.074185] (micro_ros_msgs) StdoutLine: {'line': b'[ 80%] Built target micro_ros_msgs\n'}
+[2.113221] (micro_ros_msgs) StdoutLine: {'line': b'[ 81%] Built target micro_ros_msgs__py\n'}
+[2.115793] (-) TimerEvent: {}
+[2.162248] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[2.204949] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[2.205115] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] Built target micro_ros_msgs_s__rosidl_typesupport_microxrcedds_c\n'}
+[2.218071] (-) TimerEvent: {}
+[2.248464] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c\n'}
+[2.248760] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs_s__rosidl_typesupport_c\n'}
+[2.265864] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.266390] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[2.281772] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/micro_ros_msgs'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspbotix:@/tmp/.ICE-unix/2385,unix/raspbotix:/tmp/.ICE-unix/2385', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d38b2c78_2917_4731_bb5f_2d56c5fe265f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4ACQ42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy'}), 'shell': False}
+[2.297595] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.298279] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[2.298380] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json\n'}
+[2.298952] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json\n'}
+[2.299043] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json\n'}
+[2.299449] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.299960] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.300306] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[2.300567] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.301017] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[2.301142] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[2.301265] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[2.302159] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[2.302227] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[2.302279] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[2.302325] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c\n'}
+[2.302370] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[2.302425] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[2.302473] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[2.302518] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c\n'}
+[2.302562] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[2.302605] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[2.303724] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c\n'}
+[2.303901] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[2.304807] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[2.305278] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[2.305340] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[2.305391] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[2.305444] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.305491] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[2.305537] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[2.305583] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[2.306494] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[2.306777] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.307072] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.307889] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.307971] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_microxrcedds_c.h\n'}
+[2.308024] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_microxrcedds_c.h\n'}
+[2.308073] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds\n'}
+[2.308118] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_microxrcedds_c.h\n'}
+[2.308164] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h\n'}
+[2.309254] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_microxrcedds_c.so\n'}
+[2.309385] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.309458] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.309638] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.309726] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[2.309780] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[2.309841] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[2.309888] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.310700] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.311246] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.311348] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.311415] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.311603] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.311727] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[2.311805] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[2.311950] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[2.312018] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[2.312068] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[2.312300] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[2.313437] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.314543] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[2.314643] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.314716] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.314774] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[2.314829] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.314883] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[2.314935] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[2.314988] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[2.315042] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[2.315168] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[2.315237] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[2.315295] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[2.315350] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[2.315403] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[2.315455] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[2.315723] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[2.315783] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[2.315832] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[2.315877] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[2.315969] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.316036] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.316128] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.316215] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.316389] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_microxrcedds_cpp.hpp\n'}
+[2.316530] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_microxrcedds_cpp.hpp\n'}
+[2.316619] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_microxrcedds_cpp.hpp\n'}
+[2.316679] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds\n'}
+[2.316728] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/entity__type_support_cpp.cpp\n'}
+[2.316774] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/node__type_support_cpp.cpp\n'}
+[2.316946] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/microxrcedds/graph__type_support_cpp.cpp\n'}
+[2.317089] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h\n'}
+[2.317350] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_microxrcedds_cpp.so\n'}
+[2.317717] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.317864] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.318022] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.318207] (-) TimerEvent: {}
+[2.318280] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.318375] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[2.318433] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.318687] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.320643] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.320785] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.320841] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.320891] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.320938] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.320983] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.321028] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.321072] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.321115] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[2.321169] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[2.321213] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[2.322752] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.322934] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[2.323251] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[2.323444] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[2.323713] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info\n'}
+[2.323911] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt\n'}
+[2.324796] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt\n'}
+[2.324880] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO\n'}
+[2.324934] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt\n'}
+[2.325563] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs\n'}
+[2.325711] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.325779] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c\n'}
+[2.325852] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py\n'}
+[2.325955] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.326015] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.326064] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.326109] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[2.326154] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg\n'}
+[2.326927] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py\n'}
+[2.327026] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[2.327090] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[2.327157] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py\n'}
+[2.327214] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py\n'}
+[2.327268] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py\n'}
+[2.327322] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[2.327377] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[2.327431] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_microxrcedds_c.so\n'}
+[2.373426] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...\n"}
+[2.373577] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py'...\n"}
+[2.373709] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...\n"}
+[2.379535] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_microxrcedds_c.so\n'}
+[2.380262] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.380786] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[2.381482] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[2.382464] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[2.382858] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[2.383024] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[2.383130] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[2.383202] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[2.383367] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[2.384092] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[2.384256] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[2.384367] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[2.384514] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[2.384940] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[2.385044] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[2.385097] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[2.385146] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[2.385192] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[2.385238] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[2.385282] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[2.385325] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[2.385449] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[2.386188] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[2.386301] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.386479] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.386808] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.387111] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.387197] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.387404] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.387556] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.387889] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.388160] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.388296] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.388539] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.388721] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.388992] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.389141] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.389346] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.389531] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.389607] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.389800] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.390923] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.391023] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.391088] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.391148] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.391204] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.391260] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[2.391315] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[2.391369] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[2.393524] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.418513] (-) TimerEvent: {}
+[2.425370] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[2.426502] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[2.445697] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[2.447277] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/rasp/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_agent'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspbotix:@/tmp/.ICE-unix/2385,unix/raspbotix:/tmp/.ICE-unix/2385', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d38b2c78_2917_4731_bb5f_2d56c5fe265f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4ACQ42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_agent', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy'}), 'shell': False}
+[2.513458] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.1s)\n'}
+[2.518828] (-) TimerEvent: {}
+[2.521157] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.524502] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_agent\n'}
+[2.528470] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[2.528872] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[2.528891] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/micro_ros_agent', '--', '-j2', '-l2'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspbotix:@/tmp/.ICE-unix/2385,unix/raspbotix:/tmp/.ICE-unix/2385', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d38b2c78_2917_4731_bb5f_2d56c5fe265f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4ACQ42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_agent', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy'}), 'shell': False}
+[2.613789] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[2.619550] (-) TimerEvent: {}
+[2.665829] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[2.710619] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[2.720941] (-) TimerEvent: {}
+[2.729715] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/rasp/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[2.735282] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[2.741178] (micro_ros_agent) StdoutLine: {'line': b'-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[2.757413] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.0s)\n'}
+[2.767546] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.769372] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[2.805348] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[2.821433] (-) TimerEvent: {}
+[2.923991] (-) TimerEvent: {}
+[2.938100] (micro_ros_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[2.939224] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[3.024336] (-) TimerEvent: {}
+[3.127395] (-) TimerEvent: {}
+[3.230667] (-) TimerEvent: {}
+[3.331348] (-) TimerEvent: {}
+[3.434592] (-) TimerEvent: {}
+[3.535204] (-) TimerEvent: {}
+[3.636099] (-) TimerEvent: {}
+[3.739039] (-) TimerEvent: {}
+[3.839666] (-) TimerEvent: {}
+[3.940362] (-) TimerEvent: {}
+[4.041192] (-) TimerEvent: {}
+[4.142070] (-) TimerEvent: {}
+[4.242630] (-) TimerEvent: {}
+[4.342986] (-) TimerEvent: {}
+[4.443788] (-) TimerEvent: {}
+[4.544641] (-) TimerEvent: {}
+[4.646937] (-) TimerEvent: {}
+[4.747848] (-) TimerEvent: {}
+[4.848680] (-) TimerEvent: {}
+[4.949356] (-) TimerEvent: {}
+[5.050044] (-) TimerEvent: {}
+[5.151236] (-) TimerEvent: {}
+[5.251584] (-) TimerEvent: {}
+[5.352467] (-) TimerEvent: {}
+[5.455276] (-) TimerEvent: {}
+[5.555934] (-) TimerEvent: {}
+[5.656898] (-) TimerEvent: {}
+[5.693058] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[5.757745] (-) TimerEvent: {}
+[5.840830] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[5.857969] (-) TimerEvent: {}
+[5.958795] (-) TimerEvent: {}
+[6.060219] (-) TimerEvent: {}
+[6.160917] (-) TimerEvent: {}
+[6.261430] (-) TimerEvent: {}
+[6.361857] (-) TimerEvent: {}
+[6.464392] (-) TimerEvent: {}
+[6.486039] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[6.564929] (-) TimerEvent: {}
+[6.665994] (-) TimerEvent: {}
+[6.766670] (-) TimerEvent: {}
+[6.867368] (-) TimerEvent: {}
+[6.968005] (-) TimerEvent: {}
+[7.070069] (-) TimerEvent: {}
+[7.171008] (-) TimerEvent: {}
+[7.271975] (-) TimerEvent: {}
+[7.372731] (-) TimerEvent: {}
+[7.473314] (-) TimerEvent: {}
+[7.574204] (-) TimerEvent: {}
+[7.675098] (-) TimerEvent: {}
+[7.778698] (-) TimerEvent: {}
+[7.856418] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[7.878990] (-) TimerEvent: {}
+[7.979872] (-) TimerEvent: {}
+[8.082728] (-) TimerEvent: {}
+[8.183647] (-) TimerEvent: {}
+[8.284366] (-) TimerEvent: {}
+[8.387154] (-) TimerEvent: {}
+[8.487863] (-) TimerEvent: {}
+[8.588157] (-) TimerEvent: {}
+[8.667768] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[8.690973] (-) TimerEvent: {}
+[8.793712] (-) TimerEvent: {}
+[8.896647] (-) TimerEvent: {}
+[8.999680] (-) TimerEvent: {}
+[9.100453] (-) TimerEvent: {}
+[9.203816] (-) TimerEvent: {}
+[9.308118] (-) TimerEvent: {}
+[9.411284] (-) TimerEvent: {}
+[9.512105] (-) TimerEvent: {}
+[9.615525] (-) TimerEvent: {}
+[9.716594] (-) TimerEvent: {}
+[9.818947] (-) TimerEvent: {}
+[9.924961] (-) TimerEvent: {}
+[10.028180] (-) TimerEvent: {}
+[10.128830] (-) TimerEvent: {}
+[10.180583] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[10.228955] (-) TimerEvent: {}
+[10.329608] (-) TimerEvent: {}
+[10.434710] (-) TimerEvent: {}
+[10.534982] (-) TimerEvent: {}
+[10.638681] (-) TimerEvent: {}
+[10.738947] (-) TimerEvent: {}
+[10.839720] (-) TimerEvent: {}
+[10.940107] (-) TimerEvent: {}
+[11.045018] (-) TimerEvent: {}
+[11.148574] (-) TimerEvent: {}
+[11.254067] (-) TimerEvent: {}
+[11.358159] (-) TimerEvent: {}
+[11.458604] (-) TimerEvent: {}
+[11.561592] (-) TimerEvent: {}
+[11.661913] (-) TimerEvent: {}
+[11.765978] (-) TimerEvent: {}
+[11.869984] (-) TimerEvent: {}
+[11.973308] (-) TimerEvent: {}
+[12.073758] (-) TimerEvent: {}
+[12.176875] (-) TimerEvent: {}
+[12.281722] (-) TimerEvent: {}
+[12.382831] (-) TimerEvent: {}
+[12.483424] (-) TimerEvent: {}
+[12.587009] (-) TimerEvent: {}
+[12.689783] (-) TimerEvent: {}
+[12.793208] (-) TimerEvent: {}
+[12.898448] (-) TimerEvent: {}
+[12.999858] (-) TimerEvent: {}
+[13.100389] (-) TimerEvent: {}
+[13.203827] (-) TimerEvent: {}
+[13.308053] (-) TimerEvent: {}
+[13.408682] (-) TimerEvent: {}
+[13.509241] (-) TimerEvent: {}
+[13.609970] (-) TimerEvent: {}
+[13.711646] (-) TimerEvent: {}
+[13.812401] (-) TimerEvent: {}
+[13.912886] (-) TimerEvent: {}
+[14.015819] (-) TimerEvent: {}
+[14.116476] (-) TimerEvent: {}
+[14.156887] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[14.216659] (-) TimerEvent: {}
+[14.319494] (-) TimerEvent: {}
+[14.422009] (-) TimerEvent: {}
+[14.522906] (-) TimerEvent: {}
+[14.627955] (-) TimerEvent: {}
+[14.728438] (-) TimerEvent: {}
+[14.830852] (-) TimerEvent: {}
+[14.934081] (-) TimerEvent: {}
+[15.034783] (-) TimerEvent: {}
+[15.139262] (-) TimerEvent: {}
+[15.239685] (-) TimerEvent: {}
+[15.293113] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[15.339918] (-) TimerEvent: {}
+[15.442211] (-) TimerEvent: {}
+[15.542921] (-) TimerEvent: {}
+[15.643557] (-) TimerEvent: {}
+[15.746661] (-) TimerEvent: {}
+[15.847089] (-) TimerEvent: {}
+[15.947527] (-) TimerEvent: {}
+[16.048299] (-) TimerEvent: {}
+[16.151693] (-) TimerEvent: {}
+[16.252551] (-) TimerEvent: {}
+[16.353226] (-) TimerEvent: {}
+[16.454153] (-) TimerEvent: {}
+[16.554615] (-) TimerEvent: {}
+[16.656841] (-) TimerEvent: {}
+[16.757460] (-) TimerEvent: {}
+[16.858269] (-) TimerEvent: {}
+[16.958943] (-) TimerEvent: {}
+[17.059859] (-) TimerEvent: {}
+[17.160757] (-) TimerEvent: {}
+[17.261432] (-) TimerEvent: {}
+[17.364950] (-) TimerEvent: {}
+[17.465783] (-) TimerEvent: {}
+[17.566411] (-) TimerEvent: {}
+[17.666742] (-) TimerEvent: {}
+[17.767722] (-) TimerEvent: {}
+[17.871474] (-) TimerEvent: {}
+[17.976646] (-) TimerEvent: {}
+[18.076967] (-) TimerEvent: {}
+[18.180991] (-) TimerEvent: {}
+[18.284307] (-) TimerEvent: {}
+[18.384957] (-) TimerEvent: {}
+[18.486524] (-) TimerEvent: {}
+[18.586927] (-) TimerEvent: {}
+[18.687995] (-) TimerEvent: {}
+[18.792776] (-) TimerEvent: {}
+[18.897036] (-) TimerEvent: {}
+[19.000724] (-) TimerEvent: {}
+[19.101017] (-) TimerEvent: {}
+[19.203704] (-) TimerEvent: {}
+[19.306633] (-) TimerEvent: {}
+[19.409068] (-) TimerEvent: {}
+[19.511827] (-) TimerEvent: {}
+[19.614743] (-) TimerEvent: {}
+[19.717553] (-) TimerEvent: {}
+[19.820726] (-) TimerEvent: {}
+[19.923565] (-) TimerEvent: {}
+[20.025748] (-) TimerEvent: {}
+[20.128276] (-) TimerEvent: {}
+[20.229043] (-) TimerEvent: {}
+[20.331418] (-) TimerEvent: {}
+[20.434164] (-) TimerEvent: {}
+[20.537013] (-) TimerEvent: {}
+[20.639568] (-) TimerEvent: {}
+[20.744179] (-) TimerEvent: {}
+[20.846657] (-) TimerEvent: {}
+[20.947052] (-) TimerEvent: {}
+[21.049659] (-) TimerEvent: {}
+[21.152492] (-) TimerEvent: {}
+[21.255549] (-) TimerEvent: {}
+[21.358029] (-) TimerEvent: {}
+[21.460669] (-) TimerEvent: {}
+[21.562899] (-) TimerEvent: {}
+[21.665479] (-) TimerEvent: {}
+[21.767777] (-) TimerEvent: {}
+[21.813712] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[21.868012] (-) TimerEvent: {}
+[21.968766] (-) TimerEvent: {}
+[22.069325] (-) TimerEvent: {}
+[22.170014] (-) TimerEvent: {}
+[22.271819] (-) TimerEvent: {}
+[22.302850] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[22.352599] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[22.372212] (-) TimerEvent: {}
+[22.473005] (-) TimerEvent: {}
+[22.512293] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[22.548441] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[22.564086] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.564960] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3\n'}
+[22.569122] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[22.570521] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""\n'}
+[22.570639] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[22.570708] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[22.570812] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[22.571351] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[22.571666] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[22.571882] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[22.572253] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[22.572561] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[22.572963] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[22.573133] (-) TimerEvent: {}
+[22.573297] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[22.573473] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[22.574605] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[22.575073] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[22.575194] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[22.575867] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[22.576778] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[22.576941] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[22.577862] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[22.578159] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[22.578320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[22.578468] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[22.579308] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[22.579956] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[22.580170] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[22.580440] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[22.581121] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[22.581602] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[22.581928] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[22.582378] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[22.583151] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[22.583624] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[22.583921] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[22.584405] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[22.584682] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[22.585159] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[22.585678] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[22.586038] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[22.586319] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[22.586405] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[22.586497] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[22.586874] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[22.587249] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[22.587577] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[22.587890] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[22.588488] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[22.588919] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[22.589338] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[22.589820] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[22.589898] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[22.590009] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[22.590076] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[22.590274] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[22.591059] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[22.591608] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[22.591867] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[22.592527] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[22.592707] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[22.593104] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[22.593483] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[22.593587] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[22.593933] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[22.594466] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[22.594902] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[22.595005] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[22.595626] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[22.596090] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[22.596334] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[22.597284] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[22.597711] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[22.598083] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[22.598527] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[22.598606] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[22.599025] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[22.599095] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[22.599538] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[22.599954] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[22.600444] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[22.600827] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[22.601194] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[22.601622] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[22.602235] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[22.602690] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[22.602853] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[22.603274] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[22.603484] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[22.603834] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[22.604587] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[22.604683] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[22.605072] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[22.605390] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[22.605830] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[22.606211] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[22.606641] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[22.606799] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[22.607242] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[22.609076] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[22.609225] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[22.610056] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[22.611626] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[22.612049] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[22.612132] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[22.612286] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[22.612651] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[22.613368] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[22.613548] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[22.614144] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[22.614708] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[22.615420] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[22.615620] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[22.616385] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[22.616580] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[22.617134] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[22.617333] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[22.618621] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[22.618844] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[22.618952] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[22.619748] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[22.620075] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[22.620343] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[22.620454] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[22.620984] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[22.621873] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[22.621977] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[22.622871] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[22.623124] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[22.623824] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[22.623928] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[22.624403] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[22.624935] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[22.625230] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent\n'}
+[22.625628] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/lib\n'}
+[22.626008] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/libspdlog.a\n'}
+[22.627797] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/cmake\n'}
+[22.628882] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog\n'}
+[22.629205] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[22.629796] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[22.630176] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[22.630874] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[22.631485] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/pkgconfig\n'}
+[22.631558] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc\n'}
+[22.631843] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/include\n'}
+[22.632134] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog\n'}
+[22.632419] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/async_logger.h\n'}
+[22.633036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/cfg\n'}
+[22.633291] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/env.h\n'}
+[22.633911] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h\n'}
+[22.634144] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h\n'}
+[22.634537] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h\n'}
+[22.635197] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks\n'}
+[22.635445] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h\n'}
+[22.636231] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h\n'}
+[22.636418] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h\n'}
+[22.636948] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h\n'}
+[22.637640] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h\n'}
+[22.637914] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h\n'}
+[22.638286] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h\n'}
+[22.639054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h\n'}
+[22.639176] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[22.639393] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[22.639777] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[22.640173] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h\n'}
+[22.640855] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[22.641039] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h\n'}
+[22.641689] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h\n'}
+[22.641935] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h\n'}
+[22.642317] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h\n'}
+[22.643002] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h\n'}
+[22.643281] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[22.643900] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h\n'}
+[22.644160] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h\n'}
+[22.644623] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[22.645275] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h\n'}
+[22.645451] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h\n'}
+[22.645858] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[22.646472] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[22.646722] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h\n'}
+[22.647252] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h\n'}
+[22.647320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h\n'}
+[22.647513] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h\n'}
+[22.647969] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[22.648663] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h\n'}
+[22.649204] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/common-inl.h\n'}
+[22.649911] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/async.h\n'}
+[22.650196] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/formatter.h\n'}
+[22.650493] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/spdlog.h\n'}
+[22.650571] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/logger.h\n'}
+[22.650859] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/common.h\n'}
+[22.651121] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/version.h\n'}
+[22.651601] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/stopwatch.h\n'}
+[22.651862] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details\n'}
+[22.652347] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h\n'}
+[22.652529] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h\n'}
+[22.652861] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h\n'}
+[22.653311] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h\n'}
+[22.653557] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h\n'}
+[22.653992] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/os.h\n'}
+[22.654664] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h\n'}
+[22.655016] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h\n'}
+[22.655366] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h\n'}
+[22.655916] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h\n'}
+[22.655985] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/registry.h\n'}
+[22.656035] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h\n'}
+[22.656337] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h\n'}
+[22.656843] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h\n'}
+[22.657215] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h\n'}
+[22.657404] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h\n'}
+[22.657574] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h\n'}
+[22.658358] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h\n'}
+[22.658458] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[22.658711] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h\n'}
+[22.658804] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h\n'}
+[22.659185] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h\n'}
+[22.659861] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h\n'}
+[22.660121] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h\n'}
+[22.660543] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h\n'}
+[22.660761] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h\n'}
+[22.661138] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/logger-inl.h\n'}
+[22.661854] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fwd.h\n'}
+[22.662111] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt\n'}
+[22.662666] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h\n'}
+[22.662765] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h\n'}
+[22.663081] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled\n'}
+[22.663360] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h\n'}
+[22.665122] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h\n'}
+[22.665220] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h\n'}
+[22.665283] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h\n'}
+[22.665626] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h\n'}
+[22.665867] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h\n'}
+[22.666531] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h\n'}
+[22.667702] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h\n'}
+[22.667931] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h\n'}
+[22.668433] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h\n'}
+[22.668590] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h\n'}
+[22.669007] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h\n'}
+[22.669633] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h\n'}
+[22.670063] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h\n'}
+[22.670415] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h\n'}
+[22.670822] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h\n'}
+[22.671002] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h\n'}
+[22.671465] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h\n'}
+[22.671960] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/tweakme.h\n'}
+[22.672489] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h\n'}
+[22.674445] (-) TimerEvent: {}
+[22.709773] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[22.767855] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[22.776523] (-) TimerEvent: {}
+[22.807693] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[22.854032] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[22.876692] (-) TimerEvent: {}
+[22.898847] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[22.941430] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[22.978821] (-) TimerEvent: {}
+[22.982474] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[22.999454] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/rasp/ros2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[23.036140] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[23.079118] (-) TimerEvent: {}
+[23.179648] (-) TimerEvent: {}
+[23.281270] (-) TimerEvent: {}
+[23.281441] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[23.381502] (-) TimerEvent: {}
+[23.482899] (-) TimerEvent: {}
+[23.583580] (-) TimerEvent: {}
+[23.664542] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[23.679921] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[23.684011] (-) TimerEvent: {}
+[23.784947] (-) TimerEvent: {}
+[23.843628] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[23.844289] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[23.865130] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.6.5 (/opt/ros/jazzy/share/rosidl_cmake/cmake)\n'}
+[23.871872] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[23.885557] (-) TimerEvent: {}
+[23.891402] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.6.1 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)\n'}
+[23.900587] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 3.1.0 (/opt/ros/jazzy/share/rmw_dds_common/cmake)\n'}
+[23.986021] (-) TimerEvent: {}
+[23.989228] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[24.019228] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[24.034127] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[24.086428] (-) TimerEvent: {}
+[24.088707] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.134356] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[24.173955] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[24.181587] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[24.186768] (-) TimerEvent: {}
+[24.190012] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[24.191745] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 5.0.2 (/home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[24.287464] (-) TimerEvent: {}
+[24.328256] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[24.340878] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[24.344149] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/rasp/ros2_ws/build/micro_ros_agent\n'}
+[24.382991] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[24.388932] (-) TimerEvent: {}
+[24.456065] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[24.456267] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[24.489420] (-) TimerEvent: {}
+[24.589808] (-) TimerEvent: {}
+[24.690590] (-) TimerEvent: {}
+[24.791564] (-) TimerEvent: {}
+[24.892753] (-) TimerEvent: {}
+[24.995658] (-) TimerEvent: {}
+[25.096675] (-) TimerEvent: {}
+[25.197087] (-) TimerEvent: {}
+[25.298081] (-) TimerEvent: {}
+[25.400128] (-) TimerEvent: {}
+[25.500980] (-) TimerEvent: {}
+[25.604450] (-) TimerEvent: {}
+[25.705048] (-) TimerEvent: {}
+[25.805953] (-) TimerEvent: {}
+[25.907838] (-) TimerEvent: {}
+[26.009870] (-) TimerEvent: {}
+[26.110481] (-) TimerEvent: {}
+[26.214044] (-) TimerEvent: {}
+[26.315847] (-) TimerEvent: {}
+[26.416398] (-) TimerEvent: {}
+[26.518249] (-) TimerEvent: {}
+[26.618754] (-) TimerEvent: {}
+[26.720775] (-) TimerEvent: {}
+[26.821323] (-) TimerEvent: {}
+[26.925330] (-) TimerEvent: {}
+[27.025658] (-) TimerEvent: {}
+[27.126554] (-) TimerEvent: {}
+[27.227305] (-) TimerEvent: {}
+[27.327965] (-) TimerEvent: {}
+[27.431317] (-) TimerEvent: {}
+[27.533188] (-) TimerEvent: {}
+[27.633700] (-) TimerEvent: {}
+[27.736361] (-) TimerEvent: {}
+[27.837022] (-) TimerEvent: {}
+[27.900552] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[27.938355] (-) TimerEvent: {}
+[28.039866] (-) TimerEvent: {}
+[28.143647] (-) TimerEvent: {}
+[28.246839] (-) TimerEvent: {}
+[28.347504] (-) TimerEvent: {}
+[28.450858] (-) TimerEvent: {}
+[28.491867] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[28.551082] (-) TimerEvent: {}
+[28.651811] (-) TimerEvent: {}
+[28.754781] (-) TimerEvent: {}
+[28.859519] (-) TimerEvent: {}
+[28.962775] (-) TimerEvent: {}
+[29.066096] (-) TimerEvent: {}
+[29.169402] (-) TimerEvent: {}
+[29.273671] (-) TimerEvent: {}
+[29.374347] (-) TimerEvent: {}
+[29.475579] (-) TimerEvent: {}
+[29.578791] (-) TimerEvent: {}
+[29.679358] (-) TimerEvent: {}
+[29.780850] (-) TimerEvent: {}
+[29.883386] (-) TimerEvent: {}
+[29.985709] (-) TimerEvent: {}
+[30.087550] (-) TimerEvent: {}
+[30.191153] (-) TimerEvent: {}
+[30.291744] (-) TimerEvent: {}
+[30.392631] (-) TimerEvent: {}
+[30.497234] (-) TimerEvent: {}
+[30.598002] (-) TimerEvent: {}
+[30.615910] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[30.698420] (-) TimerEvent: {}
+[30.800516] (-) TimerEvent: {}
+[30.904337] (-) TimerEvent: {}
+[31.004927] (-) TimerEvent: {}
+[31.105731] (-) TimerEvent: {}
+[31.208404] (-) TimerEvent: {}
+[31.312989] (-) TimerEvent: {}
+[31.415879] (-) TimerEvent: {}
+[31.518324] (-) TimerEvent: {}
+[31.620966] (-) TimerEvent: {}
+[31.723725] (-) TimerEvent: {}
+[31.826349] (-) TimerEvent: {}
+[31.858976] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[31.926877] (-) TimerEvent: {}
+[32.028434] (-) TimerEvent: {}
+[32.130648] (-) TimerEvent: {}
+[32.231536] (-) TimerEvent: {}
+[32.332334] (-) TimerEvent: {}
+[32.363378] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[32.417856] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[32.432882] (-) TimerEvent: {}
+[32.474104] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[32.533565] (-) TimerEvent: {}
+[32.539542] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[32.559308] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[32.560212] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[32.560897] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/micro_ros_agent'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/visualization_msgs/lib:/home/rasp/ros2_ws/install/action_msgs/lib:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib:/home/rasp/ros2_ws/install/type_description_interfaces/lib:/home/rasp/ros2_ws/install/trajectory_msgs/lib:/home/rasp/ros2_ws/install/test_msgs/lib:/home/rasp/ros2_ws/install/stereo_msgs/lib:/home/rasp/ros2_ws/install/std_srvs/lib:/home/rasp/ros2_ws/install/shape_msgs/lib:/home/rasp/ros2_ws/install/sensor_msgs/lib:/home/rasp/ros2_ws/install/nav_msgs/lib:/home/rasp/ros2_ws/install/diagnostic_msgs/lib:/home/rasp/ros2_ws/install/geometry_msgs/lib:/home/rasp/ros2_ws/install/actionlib_msgs/lib:/home/rasp/ros2_ws/install/std_msgs/lib:/home/rasp/ros2_ws/install/statistics_msgs/lib:/home/rasp/ros2_ws/install/service_msgs/lib:/home/rasp/ros2_ws/install/rmw_microxrcedds/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/rasp/ros2_ws/install/rosgraph_msgs/lib:/home/rasp/ros2_ws/install/rclc_parameter/lib:/home/rasp/ros2_ws/install/rclc/lib:/home/rasp/ros2_ws/install/composition_interfaces/lib:/home/rasp/ros2_ws/install/rcl_interfaces/lib:/home/rasp/ros2_ws/install/microxrcedds_client/lib:/home/rasp/ros2_ws/install/microcdr/lib:/home/rasp/ros2_ws/install/micro_ros_utilities/lib:/home/rasp/ros2_ws/install/lifecycle_msgs/lib:/home/rasp/ros2_ws/install/example_interfaces/lib:/home/rasp/ros2_ws/install/complex_msgs/lib:/home/rasp/ros2_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspbotix:@/tmp/.ICE-unix/2385,unix/raspbotix:/tmp/.ICE-unix/2385', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d38b2c78_2917_4731_bb5f_2d56c5fe265f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4ACQ42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs_py:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_agent', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/action_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/trajectory_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/test_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/stereo_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_srvs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/shape_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs_py/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/nav_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/diagnostic_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/actionlib_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/std_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/statistics_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/service_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rosgraph_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/example_interfaces/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/complex_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/micro_ros_demos_rclc:/home/rasp/ros2_ws/install/common_interfaces:/home/rasp/ros2_ws/install/visualization_msgs:/home/rasp/ros2_ws/install/action_msgs:/home/rasp/ros2_ws/install/unique_identifier_msgs:/home/rasp/ros2_ws/install/type_description_interfaces:/home/rasp/ros2_ws/install/trajectory_msgs:/home/rasp/ros2_ws/install/test_msgs:/home/rasp/ros2_ws/install/test_interface_files:/home/rasp/ros2_ws/install/stereo_msgs:/home/rasp/ros2_ws/install/std_srvs:/home/rasp/ros2_ws/install/shape_msgs:/home/rasp/ros2_ws/install/sensor_msgs:/home/rasp/ros2_ws/install/nav_msgs:/home/rasp/ros2_ws/install/diagnostic_msgs:/home/rasp/ros2_ws/install/geometry_msgs:/home/rasp/ros2_ws/install/actionlib_msgs:/home/rasp/ros2_ws/install/std_msgs:/home/rasp/ros2_ws/install/statistics_msgs:/home/rasp/ros2_ws/install/service_msgs:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/rasp/ros2_ws/install/rmw_microxrcedds:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/rasp/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/rasp/ros2_ws/install/rosgraph_msgs:/home/rasp/ros2_ws/install/rclc_parameter:/home/rasp/ros2_ws/install/rclc:/home/rasp/ros2_ws/install/composition_interfaces:/home/rasp/ros2_ws/install/rcl_interfaces:/home/rasp/ros2_ws/install/microxrcedds_client:/home/rasp/ros2_ws/install/microcdr:/home/rasp/ros2_ws/install/micro_ros_utilities:/home/rasp/ros2_ws/install/lifecycle_msgs:/home/rasp/ros2_ws/install/example_interfaces:/home/rasp/ros2_ws/install/complex_msgs:/home/rasp/ros2_ws/install/builtin_interfaces:/home/rasp/ros2_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/sensor_msgs_py:/opt/ros/jazzy'}), 'shell': False}
+[32.574582] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.575081] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[32.575567] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[32.576033] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[32.576235] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[32.576471] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[32.576662] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[32.576807] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[32.577086] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[32.577320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[32.577517] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[32.577698] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[32.578004] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[32.578236] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.578466] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[32.578645] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[32.578788] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[32.580000] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[32.580616] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[32.581036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[32.581439] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[32.585040] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[32.600286] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[32.601197] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+{
+  "package_name": "nav_msgs",
+  "output_dir": "/home/rasp/ros2_ws/build/nav_msgs/rosidl_generator_type_description/nav_msgs",
+  "idl_tuples": [
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Goals.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl",
+    "/home/rasp/ros2_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/rasp/ros2_ws/install/builtin_interfaces/share/builtin_interfaces",
+    "geometry_msgs:/home/rasp/ros2_ws/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/rasp/ros2_ws/install/std_msgs/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

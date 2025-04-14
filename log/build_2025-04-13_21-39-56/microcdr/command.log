@@ -1,0 +1,4 @@
+Invoking command in '/home/rasp/ros2_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/microcdr -- -j2 -l2
+Invoked command in '/home/rasp/ros2_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rasp/ros2_ws/build/microcdr -- -j2 -l2
+Invoking command in '/home/rasp/ros2_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/microcdr
+Invoked command in '/home/rasp/ros2_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rasp/ros2_ws/build/microcdr
