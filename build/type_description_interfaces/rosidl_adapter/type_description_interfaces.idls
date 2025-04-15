@@ -1,7 +1,0 @@
-/home/rasp/ros2_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl
-/home/rasp/ros2_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl
-/home/rasp/ros2_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl
-/home/rasp/ros2_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl
-/home/rasp/ros2_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl
-/home/rasp/ros2_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl
-/home/rasp/ros2_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl
